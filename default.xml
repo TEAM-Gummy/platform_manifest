@@ -9,10 +9,13 @@
            fetch="https://github.com/TEAM-Gummy/"
            sync-j="8" />
            
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets/" />
+           
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
-  
+
   <default revision="master"
            remote="aosp"
            sync-j="8" />
@@ -422,5 +425,8 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="jb4.3" />
+  
+   <!-- Proprietaries -->
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
 
 </manifest>
