@@ -454,5 +454,6 @@
   
    <!-- Proprietaries -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />  
 
 </manifest>
