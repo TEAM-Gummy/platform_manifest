@@ -8,7 +8,11 @@
   <remote  name="tg"
            fetch="https://github.com/TEAM-Gummy/"
            sync-j="8" />
-
+           
+  <remote  name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+  
   <default revision="master"
            remote="aosp"
            sync-j="8" />
