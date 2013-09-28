@@ -13,7 +13,7 @@
            fetch="https://github.com/TheMuppets/" />
            
   <remote  name="cm"
-           fetch="https://github.com/"
+           fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
   <default revision="master"
