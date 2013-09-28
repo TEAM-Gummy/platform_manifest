@@ -8,6 +8,13 @@
   <remote  name="tg"
            fetch="https://github.com/TEAM-Gummy/"
            sync-j="8" />
+           
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets/" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com" />
 
   <default revision="master"
            remote="aosp"
@@ -48,7 +55,34 @@
   <!-- Gummy Devices -->
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
+  
+  <!-- Galaxy S4 Devices -->
+  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
+ 
+  
+  <!-- Qcom Crap -->
+   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/audio-bfam" name="android_hardware_qcom_audio-bfam" remote="cm" revision="cm-10.2" />
+   <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" remote="cm" revision="cm-10.2" />
 
+ 
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -418,5 +452,8 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="jb4.3" />
+  
+   <!-- Proprietaries -->
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
 
 </manifest>
