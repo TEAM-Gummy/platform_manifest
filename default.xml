@@ -54,7 +54,7 @@
 
   <!-- Gummy Devices -->
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" groups="device,mako" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.2" />
@@ -62,6 +62,7 @@
 
   <!-- Kernel Sources -->
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
+  <project path="kernel/lge/mako" name="kernel/msm" remote="aosp" revision="android-msm-mako-3.4-jb-mr2" />
 
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -280,7 +281,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="tg" revision="jb4.3" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
