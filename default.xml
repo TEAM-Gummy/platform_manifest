@@ -296,7 +296,7 @@
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="tg" revision="jb4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="ndk" name="platform/ndk" />
