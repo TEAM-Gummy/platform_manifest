@@ -230,6 +230,10 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
 
+  <!-- Koush Superuser -->
+  <project path="external/koush/Superuser" name="koush_Superuser" remote="cp" revision="dd43" />
+  <project path="external/koush/Widgets" name="koush_Widgets" remote="cp" revision="dd43" />
+
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="tg" revision="jb4.3" />
   <project path="frameworks/base" name="android_frameworks_base" remote="tg" revision="jb4.3" />
