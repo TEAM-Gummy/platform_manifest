@@ -297,7 +297,7 @@
 
   <!-- Things and Stuff -->
   <project path="libcore" name="android_libcore" remote="tg" revision="jb4.3" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
+  <project path="libnativehelper" name="android_libnativehelper" remote="cm" revision="cm-10.2" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="ndk" name="platform/ndk" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
