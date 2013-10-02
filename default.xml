@@ -53,7 +53,6 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
 
   <!-- Gummy Devices -->
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" groups="device,mako" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="jb4.3" />
