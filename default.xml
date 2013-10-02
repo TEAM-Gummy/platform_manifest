@@ -201,7 +201,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tg" revision="jb4.3"/>
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
