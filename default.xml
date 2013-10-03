@@ -50,7 +50,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/sample" name="android_device_sample" remote="tg" revision="jb4.3" />
 
   <!-- Gummy Devices -->
   <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" groups="device,mako" />
