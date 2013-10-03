@@ -238,7 +238,7 @@
   <project path="external/v8" name="android_external_v8" remote="cm" revision="cm-10.2" />
   <project path="external/valgrind" name="android_external_valgrind" remote="cm" revision="cm-10.2" />
   <project path="external/vim" name="android_external_vim" remote="cm" revision="cm-10.2" />
-  <project path="external/webkit" name="android_external_webkit" remote="cm" revision="cm-10.2" />
+  <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="android_external_webp" remote="cm" revision="cm-10.2" />
   <project path="external/webrtc" name="android_external_webrtc" remote="cm" revision="cm-10.2" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.2" />
