@@ -53,9 +53,9 @@
   <project path="device/sample" name="android_device_sample" remote="tg" revision="jb4.3" />
 
   <!-- Gummy Devices -->
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="tg" revision="jb4.3" groups="device,mako" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="tg" revision="jb4.3" groups="device,mako" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" groups="device,mako" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="tg" revision="jb4.3" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="tg" revision="jb4.3" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="jb4.3" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="jb4.3" />
