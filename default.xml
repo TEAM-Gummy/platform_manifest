@@ -392,7 +392,8 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_SunBeam" remote="tg" revision="jb4.3" />
+  <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="tg" revision="jb4.3" />
+  <project path="packages/wallpapers/WaterBeam" name="android_packages_wallpapers_WaterBeam" remote="tg" revision="jb4.3" />
 
   <!-- Prebuilts -->
   <project path="prebuilt" name="android_prebuilt"  remote="cm" revision="cm-10.2" />
