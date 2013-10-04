@@ -53,6 +53,8 @@
   <project path="device/sample" name="android_device_sample" remote="tg" revision="jb4.3" />
 
   <!-- Gummy Devices -->
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="tg" revision="jb4.3" groups="device,mako" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="tg" revision="jb4.3" groups="device,mako" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" groups="device,mako" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="jb4.3" />
@@ -60,6 +62,7 @@
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
 
   <!-- Kernel Sources -->
+  <project path="kernel/htc/m7" name="kernel/htc/m7" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2" />
 
@@ -446,6 +449,7 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="jb4.3" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-10.2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
