@@ -62,7 +62,7 @@
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/htc/m7" name="kernel/htc/m7" remote="cm" revision="cm-10.2" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2" />
 
