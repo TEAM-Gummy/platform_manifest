@@ -58,6 +58,13 @@
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="tg" revision="jb4.3" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltecsp" name="android_device_samsung_jfltecsp" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltecri" name="android_device_samsung_jfltecri" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="jb4.3" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="jb4.3" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
