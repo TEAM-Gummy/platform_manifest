@@ -10,6 +10,7 @@
 
   <remote  name="tg"
            fetch="https://github.com/TEAM-Gummy/"
+           review="review.gummyrom.com"
            sync-j="8" />
 
   <remote  name="fx"
@@ -32,6 +33,7 @@
   </project>
 
   <!-- Here We Go -->
+  <project path="manifest" name="platform_manifest" remote="tg" revision="jb4.3" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="tg" revision="jb4.3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -79,7 +81,7 @@
   <!-- Kernel Sources -->
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="tg" revision="jb4.3" />
-  <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline-jwr" />
+  <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
 
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
