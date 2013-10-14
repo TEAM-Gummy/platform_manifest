@@ -76,11 +76,15 @@
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="jb4.3" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="tg" revision="jb4.3" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="tg" revision="jb4.3" />
 
   <!-- Kernel Sources -->
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="tg" revision="jb4.3" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />>
   <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
 
   <!-- External Packages -->
@@ -468,6 +472,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-10.2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
+  <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="tg" revision="jb4.3" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />  
