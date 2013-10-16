@@ -425,6 +425,7 @@
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" remote="tg" revision="jb4.3" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
@@ -435,6 +436,7 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="tg" revision="jb4.3" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
