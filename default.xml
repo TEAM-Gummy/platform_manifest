@@ -81,12 +81,14 @@
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="tg" revision="jb4.3" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="tg" revision="jb4.3" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="tg" revision="jb4.3" />
+
   <!-- Kernel Sources -->
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="tg" revision="jb4.3" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />>
   <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
   <project path="kernel/asus/flo" name="kernel/msm" revision="android-msm-flo-3.4-jb-mr2" />
+
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
