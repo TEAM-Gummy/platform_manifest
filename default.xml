@@ -75,6 +75,7 @@
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="jb4.3" />
+  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="tg" revision="jb4.3" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="jb4.3" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="tg" revision="jb4.3" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
