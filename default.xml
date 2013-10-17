@@ -71,6 +71,14 @@
   <project path="device/lge/iprj-common" name="android_device_lge_iprj-common" remote="tg" revision="jb4.3" />
   <project path="device/lge/p930" name="android_device_lge_p930" remote="tg" revision="jb4.3" />
   <project path="device/lge/vs920" name="android_device_lge_vs920" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltecsp" name="android_device_samsung_jfltecsp" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltecri" name="android_device_samsung_jfltecri" remote="tg" revision="jb4.3" />
@@ -90,6 +98,7 @@
 
   <!-- Kernel Sources -->
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="tg" revision="jb4.3" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="tg" revision="jb4.3" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />>
   <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
