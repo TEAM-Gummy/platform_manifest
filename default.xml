@@ -96,7 +96,7 @@
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="tg" revision="jb4.3" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="tg" revision="jb4.3" />
   <project path="device/lge/e980" name="android_device_lge_e980" remote="tg" revision="jb4.3" />
-  <project path="device/lge/gproj-common" name="android_device_lge_grpoj-common" remote="tg" revision="jb4.3" />
+  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="tg" revision="jb4.3" />
 
   <!-- Kernel Sources -->
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
