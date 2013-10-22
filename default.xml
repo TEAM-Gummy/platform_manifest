@@ -324,32 +324,32 @@
 
   <!-- Hardware Packages -->
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="tg" revision="jb4.3" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="tg" revision="jb4.3" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy"  remote="cm" revision="cm-10.2" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.2" />
+  <project path="hardware/libhardware" name="ahardware_libhardware" remote="tg" revision="jb4.3" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tg" revision="jb4.3" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="tg" revision="jb4.3" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="tg" revision="jb4.3" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="tg" revision="jb4.3" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="tg" revision="jb4.3" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="tg" revision="jb4.3" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />   
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/keymaster" name="ahardware_qcom_keymaster" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/sensors" name="hardware_qcom_sensors" remote="tg" revision="jb4.3" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="tg" revision="jb4.3" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
 
   <!-- Things and Stuff -->
