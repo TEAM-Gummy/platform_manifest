@@ -361,14 +361,14 @@
   <project path="sdk" name="platform/sdk" />
 
   <!-- Apps -->
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="tg" revision="jb4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tg" revision="jb4.3" />
-  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="tg" revision="jb4.3" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -377,18 +377,18 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/Gallery" name="android_packages_apps_Gallery" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Gallery" name="packages_apps_Gallery" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tg" revision="jb4.3" />
   <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="tg" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InvertedGummy" name="android_packages_apps_InvertedGummy" remote="tg" revision="jb4.3" />
-  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="tg" revision="jb4.3" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="tg" revision="jb4.3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="tg" revision="jb4.3" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="tg" revision="jb4.3" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="tg" revision="jb4.3" />
@@ -403,7 +403,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="tg" revision="jb4.3" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tg" revision="jb4.3" />
@@ -428,7 +428,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam"  remote="cm" revision="cm-10.2" />
+  <project path="packages/wallpapers/PhaseBeam" name="packages_wallpapers_PhaseBeam" remote="tg" revision="jb4.3" />
   <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="tg" revision="jb4.3" />
   <project path="packages/wallpapers/WaterBeam" name="android_packages_wallpapers_WaterBeam" remote="tg" revision="jb4.3" />
 
