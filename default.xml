@@ -348,7 +348,6 @@
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="tg" revision="jb4.3" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="tg" revision="jb4.3" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="tg" revision="jb4.3" />
-  <project path="hardware/qcom/sensors" name="hardware_qcom_sensors" remote="tg" revision="jb4.3" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="tg" revision="jb4.3" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
 
