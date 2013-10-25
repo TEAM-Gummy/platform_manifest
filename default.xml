@@ -65,6 +65,7 @@
 
   <!-- Gummy Devices -->
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="tg" revision="jb4.3" />
+  <project path="device/bn/encore" name="android_device_bn_encore" remote="tg" revision="jb4.3" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="tg" revision="jb4.3" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="tg" revision="jb4.3" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="tg" revision="jb4.3" />
@@ -101,6 +102,7 @@
 
   <!-- Kernel Sources -->
   <project path="kernel/asus/grouper" name="Gummy_kernel_grouper" remote="tg" revision="jb4.3" />
+  <project path="kernel/bn/encore" name="android_kernel_bn_encore" remote="cm" revision="encore-omap3-3" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="tg" revision="jb4.3" />
   <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="tg" revision="jb4.3" />
@@ -493,6 +495,7 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="jb4.3" />
+  <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-10.2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
