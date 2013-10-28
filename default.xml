@@ -110,7 +110,7 @@
   <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
   <project path="kernel/lge/iproj" name="lge-kernel-iproj" remote="cm" revision="cm-10.2" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm"  revision="cm-10.2" />
-  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="tg" revision="jb4.3" />
+  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="10.2" />
   
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
