@@ -368,16 +368,16 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tg" revision="jb4.3" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="tg" revision="jb4.3" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="tg" revision="jb4.3" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tg" revision="jb4.3" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ConctactsCommon" remote="tg" revision="jb4.3" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="tg" revision="jb4.3" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="packages_apps_Gallery" remote="tg" revision="jb4.3" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tg" revision="jb4.3" />
