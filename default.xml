@@ -65,12 +65,16 @@
 
   <!-- Gummy Devices -->
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="tg" revision="jb4.3" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="tg" revision="jb4.3" />
   <project path="device/bn/encore" name="android_device_bn_encore" remote="tg" revision="jb4.3" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="tg" revision="jb4.3" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="tg" revision="jb4.3" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="tg" revision="jb4.3" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" />
+  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="tg" revision="jb4.3" />
+  <project path="device/lge/e980" name="android_device_lge_e980" remote="tg" revision="jb4.3" />
+  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="tg" revision="jb4.3" />
   <project path="device/lge/iprj-common" name="android_device_lge_iprj-common" remote="tg" revision="jb4.3" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="jb4.3" />
   <project path="device/lge/p930" name="android_device_lge_p930" remote="tg" revision="jb4.3" />
   <project path="device/lge/vs920" name="android_device_lge_vs920" remote="tg" revision="jb4.3" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="tg" revision="jb4.3" />
@@ -90,28 +94,24 @@
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="jb4.3" />
-  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="tg" revision="jb4.3" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="jb4.3" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="tg" revision="jb4.3" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="tg" revision="jb4.3" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="tg" revision="jb4.3" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="tg" revision="jb4.3" />
-  <project path="device/lge/e980" name="android_device_lge_e980" remote="tg" revision="jb4.3" />
-  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="tg" revision="jb4.3" />
 
   <!-- Kernel Sources -->
   <project path="kernel/asus/grouper" name="Gummy_kernel_grouper" remote="tg" revision="jb4.3" />
   <project path="kernel/bn/encore" name="android_kernel_bn_encore" remote="cm" revision="encore-omap3-3" />
+  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm"  revision="cm-10.2" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
+  <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
+  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.2" />
+  <project path="kernel/lge/iproj" name="lge-kernel-iproj" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="tg" revision="jb4.3" />
   <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="tg" revision="jb4.3" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
-  <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
-  <project path="kernel/lge/iproj" name="lge-kernel-iproj" remote="cm" revision="cm-10.2" />
-  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm"  revision="cm-10.2" />
-  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.2" />
-  
+
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
