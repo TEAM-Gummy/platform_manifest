@@ -35,7 +35,7 @@
   <!-- Here We Go -->
   <project path="manifest" name="platform_manifest" remote="tg" revision="jb4.3" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="tg" revision="jb4.3" />
+  <project path="bionic" name="android_bionic" remote="tg" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="tg" revision="jb4.3" />
