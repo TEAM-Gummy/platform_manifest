@@ -324,6 +324,15 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.2" />
+  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.2" />
+  <project path="external/zxing" name="android_external_zxing" remote="cm" revision="cm-10.2" />
+
+  <!-- Koush Superuser -->
+  <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="jb4.3" />
+  <project path="external/koush/Widgets" name="koush_Widgets" remote="tg" revision="jb4.3" />
+
+  <!-- Frameworks Packages -->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
