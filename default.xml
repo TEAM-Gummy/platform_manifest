@@ -29,7 +29,7 @@
   </project>
 
   <!-- Here We Go -->
-  <project path="manifest" name="platform_manifest" remote="tg" revision="jb4.3" />
+  <project path="manifest" name="platform_manifest" remote="tg" revision="kk4.4" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="tg" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
