@@ -515,7 +515,7 @@
   <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="tg" revision="jb4.3" />
 
   <!-- System and Tool Packages -->
-  <project path="system/core" name="android_system_core" remote="tg" revision="jb4.3" />
+  <project path="system/core" name="android_system_core" remote="tg" revision="kk4.4" />
   <project path="system/extras" name="android_system_extras" remote="tg" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
