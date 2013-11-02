@@ -5,16 +5,12 @@
            fetch="http://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="gh"
+  <remote  name="bc"
            fetch="https://github.com/" />
 
   <remote  name="tg"
            fetch="https://github.com/TEAM-Gummy/"
            review="review.gummyrom.com"
-           sync-j="8" />
-
-  <remote  name="fx"
-           fetch="https://github.com/faux123/"
            sync-j="8" />
            
   <remote  name="tm"
@@ -105,7 +101,7 @@
   <project path="kernel/bn/encore" name="android_kernel_bn_encore" remote="cm" revision="encore-omap3-3" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm"  revision="cm-10.2" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
-  <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="gh" revision="bcm-mako-mainline" />
+  <project path="kernel/lge/mako" name="BytecodeMe/BCM-mako" remote="bc" revision="bcm-mako-mainline" />
   <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/iproj" name="lge-kernel-iproj" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="tg" revision="jb4.3" />
@@ -177,7 +173,6 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <!-- <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-10.2" /> -->
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
