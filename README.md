@@ -1,8 +1,7 @@
-
 TEAM Gummy
 ==============
 
-Gummy AOSP 4.3
+Gummy AOSP 4.4
 
 Sync and Build:
 ---------------
