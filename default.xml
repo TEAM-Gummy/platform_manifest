@@ -61,7 +61,7 @@
 
   <!-- Gummy Devices -->
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="tg" revision="kk4.4" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="tg" revision="jb4.3" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="tg" revision="kk4.4" />
   <project path="device/bn/encore" name="android_device_bn_encore" remote="tg" revision="jb4.3" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="tg" revision="jb4.3" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="tg" revision="jb4.3" />
