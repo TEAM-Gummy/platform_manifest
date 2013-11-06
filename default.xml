@@ -31,11 +31,11 @@
   <!-- Here We Go -->
   <project path="manifest" name="platform_manifest" remote="tg" revision="kk4.4" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="tg" revision="kk4.4" />
+  <project path="bionic" name="android_bionic" remote="tg" revision="kk4.4-temp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="tg" revision="kk4.4" />
-  <project path="dalvik" name="platform_dalvik" remote="tg" revision="kk4.4" />
+  <project path="dalvik" name="platform_dalvik" remote="tg" revision="kk4.4-temp" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -359,7 +359,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tg" revision="kk4.4"  groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tg" revision="kk4.4"  groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tg" revision="kk4.4" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="tg" revision="jb4.3" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="tg" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
@@ -516,11 +516,11 @@
   <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="tg" revision="jb4.3" />
 
   <!-- System and Tool Packages -->
-  <project path="system/core" name="android_system_core" remote="tg" revision="kk4.4" />
+  <project path="system/core" name="android_system_core" remote="tg" revision="kk4.4-tmp-a" />
   <project path="system/extras" name="android_system_extras" remote="tg" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/qcom" name="android_system_qcom" remote="tg" revision="jb4.3" />
+  <project path="system/qcom" name="android_system_qcom" remote="tg" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="tg" revision="kk4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
