@@ -24,7 +24,7 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="android_build" remote="tg" revision="kk4.4" groups="pdk" >
+  <project path="build" name="android_build" remote="tg" revision="kk4.4-test" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -379,7 +379,6 @@
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="tg" revision="jb4.3" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
-
   <!-- Things and Stuff -->
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -536,7 +535,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="kk4.4" />
+  <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="kk4.4-test" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-10.2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
