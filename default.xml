@@ -380,7 +380,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="tg" revision="kk4.4-temp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="ndk" name="platform/ndk" />
