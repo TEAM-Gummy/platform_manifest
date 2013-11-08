@@ -517,7 +517,7 @@
   <project path="system/core" name="android_system_core" remote="tg" revision="kk4.4" />
   <project path="system/extras" name="android_system_extras" remote="tg" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="tg" revision="kk4.4" />
   <project path="system/qcom" name="android_system_qcom" remote="tg" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="tg" revision="kk4.4" />
