@@ -56,7 +56,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/sample" name="android_device_sample" remote="tg" revision="jb4.3" />
+  <project path="device/sample" name="android_device_sample" remote="tg" revision="kk4.4" />
 
   <!-- Gummy Devices -->
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="tg" revision="kk4.4" />
@@ -120,7 +120,7 @@
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-10.2" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="tg" revision="kk4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="tg" revision="kk4.4" />
@@ -343,7 +343,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="tg" revision="kk4.4" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="tg" revision="kk4.4" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -389,7 +389,8 @@
   <!-- Apps -->
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="tg" revision="jb4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
