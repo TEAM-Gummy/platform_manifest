@@ -354,14 +354,14 @@
 
   <!-- Hardware Packages -->
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="tg" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tg" revision="kk4.4" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tg" revision="kk4.4" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="tg" revision="jb4.3" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
