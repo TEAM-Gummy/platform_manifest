@@ -92,7 +92,7 @@
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="tg" revision="jb4.3" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="tg" revision="jb4.3" />
 
