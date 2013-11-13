@@ -319,7 +319,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
  
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="jb4.3" />
+  <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="kk4.4" />
   <project path="external/koush/Widgets" name="koush_Widgets" remote="tg" revision="jb4.3" />
 
   <!-- Frameworks Packages -->
