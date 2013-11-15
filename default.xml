@@ -315,7 +315,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="tg" revision="kk4.4" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
+  <project path="external/zlib" name="android_external_zlib" remote="tg" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
  
   <!-- Koush Superuser -->
