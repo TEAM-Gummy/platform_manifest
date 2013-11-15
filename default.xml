@@ -92,7 +92,7 @@
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="tg" revision="jb4.3" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="tg" revision="jb4.3" />
 
@@ -319,19 +319,19 @@
   <project path="external/zxing" name="platform/external/zxing" />
  
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="jb4.3" />
+  <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="kk4.4" />
   <project path="external/koush/Widgets" name="koush_Widgets" remote="tg" revision="jb4.3" />
 
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="tg" revision="kk4.4" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="tg" revision="kk4.4" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="tg" revision="kktest" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="tg" revision="kk4.4" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="tg" revision="testkk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -356,27 +356,31 @@
   <!-- Hardware Packages -->
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="tg" revision="kk4.4" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tg" revision="kk4.4" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tg" revision="kk4.4" />
-  <project path="hardware/msm7k" name="hardware_msm7k" remote="tg" revision="jb4.3" />
+  <project path="hardware/msm7k" name="hardware_msm7k" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="tg" revision="kk4.4" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="tg" revision="kk4.4" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="tg" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="tg" revision="jb4.3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="tg" revision="jb4.3" />
+  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="tg" revision="kk4.4" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="tg" revision="kk4.4" />
+  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Things and Stuff -->
