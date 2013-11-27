@@ -88,10 +88,11 @@
   <project path="device/samsung/jfltetmo" name="TEAM-Gummy/android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jf-common" name="TEAM-Gummy/android_device_samsung_jf-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/qcom-common" name="TEAM-Gummy/android_device_samsung_qcom-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/maguro" name="TEAM-Gummy/android_device_samsung_maguro" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/maguro" name="TEAM-Gummy/android_device_samsung_maguro" remote="tg" revision="kk4.4" />
   <project path="device/samsung/msm8960-common" name="TEAM-Gummy/android_device_samsung_msm8960-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/toro" name="TEAM-Gummy/android_device_samsung_toro" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/tuna" name="TEAM-Gummy/android_device_samsung_tuna" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/toro" name="TEAM-Gummy/android_device_samsung_toro" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/toroplus" name="TEAM-Gummy/android_device_samsung_toroplus" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/tuna" name="TEAM-Gummy/android_device_samsung_tuna" remote="tg" revision="kk4.4" />
 
   <!-- Kernel Sources -->
   <project path="kernel/asus/grouper" name="TEAM-Gummy/Gummy_kernel_grouper" remote="tg" revision="jb4.3" />
@@ -103,7 +104,7 @@
   <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-kitkat-mr0" />
   <project path="kernel/samsung/d2" name="TEAM-Gummy/android_kernel_samsung_d2" remote="tg" revision="jb4.3" />
   <project path="kernel/samsung/jf" name="TEAM-Gummy/elite_kernel_jf" remote="tg" revision="kk4.4" />
-  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" />
 
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
