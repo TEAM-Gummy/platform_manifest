@@ -9,7 +9,7 @@
            fetch="https://github.com/" />
 
   <remote  name="tg"
-           fetch="https://github.com/TEAM-Gummy/"
+           fetch="https://github.com/"
            review="review.gummyrom.com"
            sync-j="8" />
            
@@ -24,29 +24,29 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="android_build" remote="tg" revision="kk4.4" >
+  <project path="build" name="TEAM-Gummy/android_build" remote="tg" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <!-- Here We Go -->
-  <project path="manifest" name="platform_manifest" remote="tg" revision="kk4.4" />
+  <project path="manifest" name="TEAM-Gummy/platform_manifest" remote="tg" revision="kk4.4" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="tg" revision="kk4.4" />
+  <project path="bionic" name="TEAM-Gummy/android_bionic" remote="tg" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="tg" revision="kk4.4" />
-  <project path="dalvik" name="platform_dalvik" remote="tg" revision="kk4.4" />
-  <!-- <project path="art" name="platform_art" remote="tg" revision="kk4.4" /> -->
+  <project path="bootable/recovery" name="TEAM-Gummy/android_bootable_recovery" remote="tg" revision="kk4.4" />
+  <project path="dalvik" name="TEAM-Gummy/platform_dalvik" remote="tg" revision="kk4.4" />
+  <!-- <project path="art" name="TEAM-Gummy/platform_art" remote="tg" revision="kk4.4" /> -->
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="jenkins" name="hudson" remote="tg" revision="jb4.3" />
+  <project path="jenkins" name="TEAM-Gummy/hudson" remote="tg" revision="jb4.3" />
 
   <!-- Generic Devices -->
-  <project path="device/common" name="android_device_common" remote="tg" revision="kk4.4" />
+  <project path="device/common" name="TEAM-Gummy/android_device_common" remote="tg" revision="kk4.4" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -57,55 +57,55 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/sample" name="android_device_sample" remote="tg" revision="kk4.4" />
+  <project path="device/sample" name="TEAM-Gummy/android_device_sample" remote="tg" revision="kk4.4" />
 
   <!-- Gummy Devices -->
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="tg" revision="kk4.4" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="tg" revision="kk4.4" />
-  <project path="device/bn/encore" name="android_device_bn_encore" remote="tg" revision="jb4.3" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="tg" revision="jb4.3" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="tg" revision="jb4.3" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="tg" revision="jb4.3" />
-  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="tg" revision="jb4.3" />
-  <project path="device/lge/e980" name="android_device_lge_e980" remote="tg" revision="jb4.3" />
-  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="tg" revision="jb4.3" />
-  <project path="device/lge/iprj-common" name="android_device_lge_iprj-common" remote="tg" revision="jb4.3" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="tg" revision="kk4.4" />
-  <project path="device/lge/p930" name="android_device_lge_p930" remote="tg" revision="jb4.3" />
-  <project path="device/lge/vs920" name="android_device_lge_vs920" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jfltecsp" name="android_device_samsung_jfltecsp" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jfltecri" name="android_device_samsung_jfltecri" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="tg" revision="jb4.3" />
+  <project path="device/asus/grouper" name="TEAM-Gummy/android_device_asus_grouper" remote="tg" revision="kk4.4" />
+  <project path="device/asus/flo" name="TEAM-Gummy/android_device_asus_flo" remote="tg" revision="kk4.4" />
+  <project path="device/bn/encore" name="TEAM-Gummy/android_device_bn_encore" remote="tg" revision="jb4.3" />
+  <project path="device/htc/msm8960-common" name="TEAM-Gummy/android_device_htc_msm8960-common" remote="tg" revision="kk4.4" />
+  <project path="device/htc/m7-common" name="TEAM-Gummy/android_device_htc_m7-common" remote="tg" revision="kk4.4" />
+  <project path="device/htc/m7ul" name="TEAM-Gummy/android_device_htc_m7ul" remote="tg" revision="jb4.3" />
+  <project path="device/htc/m7vzw" name="TEAM-Gummy/android_device_htc_m7vzw" remote="tg" revision="kk4.4" />
+  <project path="device/lge/e980" name="TEAM-Gummy/android_device_lge_e980" remote="tg" revision="jb4.3" />
+  <project path="device/lge/gproj-common" name="TEAM-Gummy/android_device_lge_gproj-common" remote="tg" revision="jb4.3" />
+  <project path="device/lge/iprj-common" name="TEAM-Gummy/android_device_lge_iprj-common" remote="tg" revision="jb4.3" />
+  <project path="device/lge/mako" name="TEAM-Gummy/android_device_lge_mako" remote="tg" revision="kk4.4" />
+  <project path="device/lge/p930" name="TEAM-Gummy/android_device_lge_p930" remote="tg" revision="jb4.3" />
+  <project path="device/lge/vs920" name="TEAM-Gummy/android_device_lge_vs920" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2-common" name="TEAM-Gummy/android_device_samsung_d2-common" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2att" name="TEAM-Gummy/android_device_samsung_d2att" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2cri" name="TEAM-Gummy/android_device_samsung_d2cri" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2mtr" name="TEAM-Gummy/android_device_samsung_d2mtr" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2spr" name="TEAM-Gummy/android_device_samsung_d2spr" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2tmo" name="TEAM-Gummy/android_device_samsung_d2tmo" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2usc" name="TEAM-Gummy/android_device_samsung_d2usc" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2vzw" name="TEAM-Gummy/android_device_samsung_d2vzw" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jflteatt" name="TEAM-Gummy/android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltecsp" name="TEAM-Gummy/android_device_samsung_jfltecsp" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltecri" name="TEAM-Gummy/android_device_samsung_jfltecri" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jflteusc" name="TEAM-Gummy/android_device_samsung_jflteusc" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltecan" name="TEAM-Gummy/android_device_samsung_jfltecan" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltespr" name="TEAM-Gummy/android_device_samsung_jfltespr" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltevzw" name="TEAM-Gummy/android_device_samsung_jfltevzw" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltetmo" name="TEAM-Gummy/android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jf-common" name="TEAM-Gummy/android_device_samsung_jf-common" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/qcom-common" name="TEAM-Gummy/android_device_samsung_qcom-common" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/maguro" name="TEAM-Gummy/android_device_samsung_maguro" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/msm8960-common" name="TEAM-Gummy/android_device_samsung_msm8960-common" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/toro" name="TEAM-Gummy/android_device_samsung_toro" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/tuna" name="TEAM-Gummy/android_device_samsung_tuna" remote="tg" revision="jb4.3" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/asus/grouper" name="Gummy_kernel_grouper" remote="tg" revision="jb4.3" />
+  <project path="kernel/asus/grouper" name="TEAM-Gummy/Gummy_kernel_grouper" remote="tg" revision="jb4.3" />
   <project path="kernel/bn/encore" name="android_kernel_bn_encore" remote="cm" revision="encore-omap3-3" />
-  <project path="kernel/asus/flo" name="android_kernel_google_msm" remote="tg"  revision="jb4.3" />
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
+  <project path="kernel/asus/flo" name="TEAM-Gummy/android_kernel_google_msm" remote="tg"  revision="jb4.3" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/iproj" name="lge-kernel-iproj" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-kitkat-mr0" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="tg" revision="jb4.3" />
-  <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="tg" revision="kk4.4" />
+  <project path="kernel/samsung/d2" name="TEAM-Gummy/android_kernel_samsung_d2" remote="tg" revision="jb4.3" />
+  <project path="kernel/samsung/jf" name="TEAM-Gummy/elite_kernel_jf" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
 
   <!-- External Packages -->
@@ -122,17 +122,17 @@
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-10.2" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="tg" revision="kk4.4" />
+  <project path="external/bluetooth/bluedroid" name="TEAM-Gummy/external_bluetooth_bluedroid" remote="tg" revision="kk4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="tg" revision="kk4.4" />
+  <project path="external/busybox" name="TEAM-Gummy/android_external_busybox" remote="tg" revision="kk4.4" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform_external_chromium_org" remote="tg" revision="kk4.4" />
+  <project path="external/chromium_org" name="TEAM-Gummy/platform_external_chromium_org" remote="tg" revision="kk4.4" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -156,7 +156,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="android_external_clang" remote="tg" revision="kk4.4" />
+  <project path="external/clang" name="TEAM-Gummy/android_external_clang" remote="tg" revision="kk4.4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -164,7 +164,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="tg" revision="kk4.4" />
+  <project path="external/e2fsprogs" name="TEAM-Gummy/android_external_e2fsprogs" remote="tg" revision="kk4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -178,7 +178,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="tg" revision="kk4.4" />
+  <project path="external/fsck_msdos" name="TEAM-Gummy/android_external_fsck_msdos" remote="tg" revision="kk4.4" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -216,8 +216,8 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.2" />
-  <project path="external/libnfc-nci" name="platform_external_libnfc-nci" remote="tg" revision="kk4.4" />
-  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="tg" revision="kk4.4" />
+  <project path="external/libnfc-nci" name="TEAM-Gummy/platform_external_libnfc-nci" remote="tg" revision="kk4.4" />
+  <project path="external/libnfc-nxp" name="TEAM-Gummy/platform_external_libnfc-nxp" remote="tg" revision="kk4.4" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -235,7 +235,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="android_external_llvm" remote="tg" revision="kk4.4" />
+  <project path="external/llvm" name="TEAM-Gummy/android_external_llvm" remote="tg" revision="kk4.4" />
   <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-10.2" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-10.2" />
@@ -267,7 +267,7 @@
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="cm-10.2" />
   <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/pigz" name="android_external_pigz" remote="tg" revision="jb4.3" />
+  <project path="external/pigz" name="TEAM-Gummy/android_external_pigz" remote="tg" revision="jb4.3" />
   <!-- <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" /> -->
   <project path="external/pixman" name="platform/external/pixman" />
@@ -284,7 +284,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-10.2" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tg" revision="kk4.4" />
+  <project path="external/sepolicy" name="TEAM-Gummy/android_external_sepolicy" remote="tg" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="platform/external/skia" />
@@ -315,24 +315,24 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="tg" revision="kk4.4" />
-  <project path="external/zlib" name="android_external_zlib" remote="tg" revision="kk4.4" />
+  <project path="external/yaffs2" name="TEAM-Gummy/android_external_yaffs2" remote="tg" revision="kk4.4" />
+  <project path="external/zlib" name="TEAM-Gummy/android_external_zlib" remote="tg" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
  
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="kk4.4" />
-  <project path="external/koush/Widgets" name="koush_Widgets" remote="tg" revision="jb4.3" />
+  <project path="external/koush/Superuser" name="TEAM-Gummy/koush_Superuser" remote="tg" revision="kk4.4" />
+  <project path="external/koush/Widgets" name="TEAM-Gummy/koush_Widgets" remote="tg" revision="jb4.3" />
 
   <!-- Frameworks Packages -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="tg" revision="kk4.4" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="tg" revision="kktest" />
+  <project path="frameworks/av" name="TEAM-Gummy/android_frameworks_av" remote="tg" revision="kk4.4" />
+  <project path="frameworks/base" name="TEAM-Gummy/android_frameworks_base" remote="tg" revision="kktest" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="tg" revision="testkk" />
+  <project path="frameworks/native" name="TEAM-Gummy/platform_frameworks_native" remote="tg" revision="testkk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -344,8 +344,8 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="tg" revision="kk4.4" />
-  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="tg" revision="kk4.4" />
+  <project path="frameworks/opt/telephony" name="TEAM-Gummy/android_frameworks_opt_telephony" remote="tg" revision="kk4.4" />
+  <project path="frameworks/opt/vcard" name="TEAM-Gummy/android_frameworks_opt_vcard" remote="tg" revision="kk4.4" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -356,36 +356,36 @@
 
   <!-- Hardware Packages -->
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="tg" revision="kk4.4" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="tg" revision="kk4.4" />
+  <project path="hardware/broadcom/libbt" name="TEAM-Gummy/hardware_broadcom_libbt" remote="tg" revision="kk4.4" />
+  <project path="hardware/broadcom/wlan" name="TEAM-Gummy/hardware_broadcom_wlan" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="tg" revision="kk4.4" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tg" revision="kk4.4" />
-  <project path="hardware/msm7k" name="hardware_msm7k" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="tg" revision="kk4.4" />
+  <project path="hardware/libhardware" name="TEAM-Gummy/hardware_libhardware" remote="tg" revision="kk4.4" />
+  <project path="hardware/libhardware_legacy" name="TEAM-Gummy/hardware_libhardware_legacy" remote="tg" revision="kk4.4" />
+  <project path="hardware/msm7k" name="TEAM-Gummy/hardware_msm7k" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/audio" name="TEAM-Gummy/hardware_qcom_audio" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/audio-caf" name="TEAM-Gummy/hardware_qcom_audio-caf" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/bt" name="TEAM-Gummy/hardware_qcom_bt" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/display" name="TEAM-Gummy/hardware_qcom_display" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/keymaster" name="TEAM-Gummy/hardware_qcom_keymaster" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/media" name="TEAM-Gummy/hardware_qcom_media" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/media-caf" name="TEAM-Gummy/hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/msm8960" name="TEAM-Gummy/hardware_qcom_msm8960" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/power" name="TEAM-Gummy/hardware_qcom_power" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="tg" revision="kk4.4" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="tg" revision="kk4.4" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/wlan" name="TEAM-Gummy/hardware_qcom_wlan" remote="tg" revision="kk4.4" />
+  <project path="hardware/ril" name="TEAM-Gummy/android_hardware_ril" remote="tg" revision="kk4.4" />
+  <project path="hardware/samsung" name="TEAM-Gummy/android_hardware_samsung" remote="tg" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="tg" revision="kk4.4" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="tg" revision="kk4.4" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="tg" revision="kk4.4" />
+  <project path="hardware/ti/omap3" name="TEAM-Gummy/hardware_ti_omap3" remote="tg" revision="kk4.4" />
+  <project path="hardware/ti/omap4xxx" name="TEAM-Gummy/hardware_ti_omap4xxx" remote="tg" revision="kk4.4" />
+  <project path="hardware/ti/wlan" name="TEAM-Gummy/hardware_ti_wlan" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="android_libcore" remote="tg" revision="kk4.4" />
+  <project path="libcore" name="TEAM-Gummy/android_libcore" remote="tg" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="ndk" name="platform/ndk" />
@@ -393,35 +393,35 @@
   <project path="sdk" name="platform/sdk" />
 
   <!-- Apps -->
-  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="tg" revision="jb4.3" />
+  <project path="packages/apps/Apollo" name="TEAM-Gummy/packages_apps_Apollo" remote="tg" revision="jb4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Bluetooth" name="TEAM-Gummy/packages_apps_Bluetooth" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/BluetoothExt" name="TEAM-Gummy/packages_apps_BluetoothExt" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="TEAM-Gummy/packages_apps_Calculator" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Camera2" name="TEAM-Gummy/packages_apps_Camera2" remote="tg" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="TEAM-Gummy/android_packages_apps_Dialer" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/GummyPapers" name="packages_apps_GummyPapers" remote="tg" revision="master" />
+  <project path="packages/apps/Gallery2" name="TEAM-Gummy/packages_apps_Gallery2" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/GummyPapers" name="TEAM-Gummy/packages_apps_GummyPapers" remote="tg" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
-  <project path="packages/apps/InvertedCalendar" name="packages_apps_InvertedCalendar" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/InvertedCalendar" name="TEAM-Gummy/packages_apps_InvertedCalendar" remote="tg" revision="kk4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/LockClock" name="TEAM-Gummy/android_packages_apps_LockClock" remote="tg" revision="kk4.4" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Mms" name="TEAM-Gummy/android_packages_apps_Mms" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -432,19 +432,19 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="TEAM-Gummy/android_packages_apps_Settings" remote="tg" revision="kk4.4" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="tg" revision="jb4.3" />
+  <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="jb4.3" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tg" revision="kk4.4" />
+  <project path="packages/inputmethods/LatinIME" name="TEAM-Gummy/packages_inputmethods_LatinIME" remote="tg" revision="kk4.4" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -458,7 +458,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tg" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="TEAM-Gummy/packages_services_Telephony" remote="tg" revision="kk4.4" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -466,9 +466,9 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="packages_wallpapers_PhaseBeam" remote="tg" revision="jb4.3" />
-  <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="tg" revision="jb4.3" />
-  <project path="packages/wallpapers/WaterBeam" name="android_packages_wallpapers_WaterBeam" remote="tg" revision="jb4.3" />
+  <project path="packages/wallpapers/PhaseBeam" name="TEAM-Gummy/packages_wallpapers_PhaseBeam" remote="tg" revision="jb4.3" />
+  <project path="packages/wallpapers/SunBeam" name="TEAM-Gummy/android_packages_wallpapers_SunBeam" remote="tg" revision="jb4.3" />
+  <project path="packages/wallpapers/WaterBeam" name="TEAM-Gummy/android_packages_wallpapers_WaterBeam" remote="tg" revision="jb4.3" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
@@ -518,16 +518,16 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="tg" revision="jb4.3" />
+  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="TEAM-Gummy/Linaro_47x_toolchain" remote="tg" revision="jb4.3" />
 
   <!-- System and Tool Packages -->
-  <project path="system/core" name="android_system_core" remote="tg" revision="kk4.4" />
-  <project path="system/extras" name="android_system_extras" remote="tg" revision="kk4.4" />
+  <project path="system/core" name="TEAM-Gummy/android_system_core" remote="tg" revision="kk4.4" />
+  <project path="system/extras" name="TEAM-Gummy/android_system_extras" remote="tg" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="android_system_netd" remote="tg" revision="kk4.4" />
-  <project path="system/qcom" name="android_system_qcom" remote="tg" revision="kk4.4" />
+  <project path="system/netd" name="TEAM-Gummy/android_system_netd" remote="tg" revision="kk4.4" />
+  <project path="system/qcom" name="TEAM-Gummy/android_system_qcom" remote="tg" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="tg" revision="kk4.4" />
+  <project path="system/vold" name="TEAM-Gummy/android_system_vold" remote="tg" revision="kk4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -541,15 +541,15 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="kk4.4" />
+  <project path="vendor/Gummy" name="TEAM-Gummy/vendor_Gummy" remote="tg" revision="kk4.4" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-10.2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tg" revision="kk4.4" />
+  <project path="vendor/samsung" name="TEAM-Gummy/proprietary_vendor_samsung" remote="tg" revision="kk4.4" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />  
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tg" revision="jb4.3" />
+  <project path="vendor/asus" name="TEAM-Gummy/proprietary_vendor_asus" remote="tg" revision="jb4.3" />
 
 </manifest>
