@@ -5,9 +5,6 @@
            fetch="http://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="bc"
-           fetch="https://github.com/" />
-
   <remote  name="tg"
            fetch="https://github.com/"
            review="review.gummyrom.com"
