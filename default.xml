@@ -88,14 +88,14 @@
   <project path="device/motorola/xt1056" name="TEAM-Gummy/android_device_motorola_xt1056" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1058" name="TEAM-Gummy/android_device_motorola_xt1058" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1060" name="TEAM-Gummy/android_device_motorola_xt1060" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2-common" name="TEAM-Gummy/android_device_samsung_d2-common" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2att" name="TEAM-Gummy/android_device_samsung_d2att" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2cri" name="TEAM-Gummy/android_device_samsung_d2cri" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2mtr" name="TEAM-Gummy/android_device_samsung_d2mtr" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2spr" name="TEAM-Gummy/android_device_samsung_d2spr" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2tmo" name="TEAM-Gummy/android_device_samsung_d2tmo" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2usc" name="TEAM-Gummy/android_device_samsung_d2usc" remote="tg" revision="jb4.3" />
-  <project path="device/samsung/d2vzw" name="TEAM-Gummy/android_device_samsung_d2vzw" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/d2-common" name="TEAM-Gummy/android_device_samsung_d2-common" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2att" name="TEAM-Gummy/android_device_samsung_d2att" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2cri" name="TEAM-Gummy/android_device_samsung_d2cri" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2mtr" name="TEAM-Gummy/android_device_samsung_d2mtr" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2spr" name="TEAM-Gummy/android_device_samsung_d2spr" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2tmo" name="TEAM-Gummy/android_device_samsung_d2tmo" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2usc" name="TEAM-Gummy/android_device_samsung_d2usc" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2vzw" name="TEAM-Gummy/android_device_samsung_d2vzw" remote="tg" revision="kk4.4" />
   <project path="device/samsung/jflteatt" name="TEAM-Gummy/android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltecsp" name="TEAM-Gummy/android_device_samsung_jfltecsp" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltecri" name="TEAM-Gummy/android_device_samsung_jfltecri" remote="tg" revision="jb4.3" />
