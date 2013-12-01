@@ -58,7 +58,7 @@
 
   <!-- Gummy Devices -->
   <project path="device/asus/grouper" name="TEAM-Gummy/android_device_asus_grouper" remote="tg" revision="kk4.4" />
-  <project path="device/asus/flo" name="TEAM-Gummy/android_device_asus_flo" remote="tg" revision="kk4.4-fix" />
+  <project path="device/asus/flo" name="TEAM-Gummy/android_device_asus_flo" remote="tg" revision="kk4.4" />
   <project path="device/bn/encore" name="TEAM-Gummy/android_device_bn_encore" remote="tg" revision="jb4.3" />
   <project path="device/htc/msm8960-common" name="TEAM-Gummy/android_device_htc_msm8960-common" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7-common" name="TEAM-Gummy/android_device_htc_m7-common" remote="tg" revision="kk4.4" />
@@ -66,12 +66,10 @@
   <project path="device/htc/m7vzw" name="TEAM-Gummy/android_device_htc_m7vzw" remote="tg" revision="kk4.4" />
   <project path="device/lge/e980" name="TEAM-Gummy/android_device_lge_e980" remote="tg" revision="jb4.3" />
   <project path="device/lge/gproj-common" name="TEAM-Gummy/android_device_lge_gproj-common" remote="tg" revision="jb4.3" />
-  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="tg" revision="kk4.4" />
   <project path="device/lge/iprj-common" name="TEAM-Gummy/android_device_lge_iprj-common" remote="tg" revision="jb4.3" />
   <project path="device/lge/mako" name="TEAM-Gummy/android_device_lge_mako" remote="tg" revision="kk4.4" />
   <project path="device/lge/p930" name="TEAM-Gummy/android_device_lge_p930" remote="tg" revision="jb4.3" />
   <project path="device/lge/vs920" name="TEAM-Gummy/android_device_lge_vs920" remote="tg" revision="jb4.3" />
-  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="tg" revision="kk4.4" />
   <project path="device/motorola/maserati" name="TEAM-Gummy/android_device_motorola_maserati" remote="tg" revision="kk4.4" />
   <project path="device/motorola/mb886" name="TEAM-Gummy/android_device_motorola_mb886" remote="tg" revision="kk4.4" />
   <project path="device/motorola/msm8960-common" name="TEAM-Gummy/android_device_motorola_msm8960-common" remote="tg" revision="kk4.4" />
@@ -121,7 +119,6 @@
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/iproj" name="CyanogenMod/lge-kernel-iproj" remote="cm" revision="cm-10.2" />
-  <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-kitkat-mr0" />
   <project path="kernel/motorola/omap4-common" name="CyanogenMod/android_kernel_motorola_omap4-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
@@ -390,11 +387,9 @@
   <project path="hardware/qcom/bt" name="TEAM-Gummy/hardware_qcom_bt" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display" name="TEAM-Gummy/hardware_qcom_display" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/display-mdss" name="hardware_qcom_display-mdss" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="TEAM-Gummy/hardware_qcom_keymaster" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media" name="TEAM-Gummy/hardware_qcom_media" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media-caf" name="TEAM-Gummy/hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/media-v4l2" name="hardware_qcom_media-v4l2" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/msm8960" name="TEAM-Gummy/hardware_qcom_msm8960" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="TEAM-Gummy/hardware_qcom_power" remote="tg" revision="kk4.4" />
