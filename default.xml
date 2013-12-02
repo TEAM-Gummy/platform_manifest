@@ -106,6 +106,7 @@
   <project path="device/samsung/jfltespr" name="TEAM-Gummy/android_device_samsung_jfltespr" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltevzw" name="TEAM-Gummy/android_device_samsung_jfltevzw" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltetmo" name="TEAM-Gummy/android_device_samsung_jfltetmo" remote="tg" revision="jb4.3" />
+  <project path="device/samsung/jfltexx" name="TEAM-Gummy/android_device_samsung_jfltexx" remote="tg" revision="kk4.4" />
   <project path="device/samsung/jf-common" name="TEAM-Gummy/android_device_samsung_jf-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/qcom-common" name="TEAM-Gummy/android_device_samsung_qcom-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/maguro" name="TEAM-Gummy/android_device_samsung_maguro" remote="tg" revision="kk4.4" />
