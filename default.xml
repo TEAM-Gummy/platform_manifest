@@ -388,6 +388,7 @@
   <project path="hardware/msm7k" name="TEAM-Gummy/hardware_msm7k" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/audio" name="TEAM-Gummy/hardware_qcom_audio" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/audio-caf" name="TEAM-Gummy/hardware_qcom_audio-caf" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/audio-caf-legacy" name="TEAM-Gummy/hardware_qcom_audio-caf-legacy" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="TEAM-Gummy/hardware_qcom_bt" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display" name="TEAM-Gummy/hardware_qcom_display" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
