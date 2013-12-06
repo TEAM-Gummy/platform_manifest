@@ -409,7 +409,7 @@
   <project path="hardware/ti/omap3" name="TEAM-Gummy/hardware_ti_omap3" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="TEAM-Gummy/hardware_ti_omap4xxx" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="TEAM-Gummy/hardware_ti_wlan" remote="tg" revision="kk4.4" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
 
   <!-- Things and Stuff -->
   <project path="libcore" name="TEAM-Gummy/android_libcore" remote="tg" revision="kk4.4" />
