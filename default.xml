@@ -33,7 +33,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="TEAM-Gummy/android_bootable_recovery" remote="tg" revision="kk4.4" />
   <project path="dalvik" name="TEAM-Gummy/platform_dalvik" remote="tg" revision="kk4.4" />
-  <!-- <project path="art" name="TEAM-Gummy/platform_art" remote="tg" revision="kk4.4" /> -->
+  <project path="art" name="TEAM-Gummy/platform_art" remote="tg" revision="kk4.4" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
