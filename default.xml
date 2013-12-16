@@ -65,6 +65,8 @@
   <project path="device/htc/m7tmo" name="TEAM-Gummy/android_device_htc_m7tmo" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7ul" name="TEAM-Gummy/android_device_htc_m7ul" remote="tg" revision="jb4.3" />
   <project path="device/htc/m7vzw" name="TEAM-Gummy/android_device_htc_m7vzw" remote="tg" revision="kk4.4" />
+  <project path="device/lge/d800" name="TEAM-Gummy/android_device_lge_d800" remote="tg" revision="kk4.4" />
+  <project path="device/lge/d802" name="TEAM-Gummy/android_device_lge_d802" remote="tg" revision="kk4.4" />
   <project path="device/lge/e980" name="TEAM-Gummy/android_device_lge_e980" remote="tg" revision="jb4.3" />
   <project path="device/lge/gproj-common" name="TEAM-Gummy/android_device_lge_gproj-common" remote="tg" revision="jb4.3" />
   <project path="device/lge/g2-common" name="TEAM-Gummy/android_device_lge_g2-common" remote="tg" revision="kk4.4" />
