@@ -406,6 +406,7 @@
   <project path="hardware/qcom/display" name="TEAM-Gummy/hardware_qcom_display" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-mdss" name="TEAM-Gummy/hardware_qcom_display-mdss" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/gps" name="TEAM-Gummy/hardware_qcom_gps" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="TEAM-Gummy/hardware_qcom_keymaster" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media" name="TEAM-Gummy/hardware_qcom_media" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media-caf" name="TEAM-Gummy/hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
