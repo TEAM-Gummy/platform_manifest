@@ -461,7 +461,7 @@
   <project path="packages/apps/InvertedCalendar" name="TEAM-Gummy/packages_apps_InvertedCalendar" remote="tg" revision="kk4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="TEAM-Gummy/packages_apps_Launcher3" remote="tg" revision="kk4.4" />
   <project path="packages/apps/LockClock" name="TEAM-Gummy/android_packages_apps_LockClock" remote="tg" revision="kk4.4" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="TEAM-Gummy/android_packages_apps_Mms" remote="tg" revision="kk4.4" />
@@ -496,7 +496,7 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="TEAM-Gummy/packages_providers_TelephonyProvider" remote="tg" revision="kk4.4" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
