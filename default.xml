@@ -63,8 +63,10 @@
   <project path="device/htc/evita" name="TEAM-Gummy/android_device_htc_evita" remote="tg" revision="kk4.4" />
   <project path="device/htc/msm8960-common" name="TEAM-Gummy/android_device_htc_msm8960-common" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7-common" name="TEAM-Gummy/android_device_htc_m7-common" remote="tg" revision="kk4.4" />
+  <project path="device/htc/m7" name="TEAM-Gummy/android_device_htc_m7" remote="tg" revision="kk4.4" />
+  <project path="device/htc/m7att" name="TEAM-Gummy/android_device_htc_m7att" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7tmo" name="TEAM-Gummy/android_device_htc_m7tmo" remote="tg" revision="kk4.4" />
-  <project path="device/htc/m7ul" name="TEAM-Gummy/android_device_htc_m7ul" remote="tg" revision="jb4.3" />
+  <project path="device/htc/m7ul" name="TEAM-Gummy/android_device_htc_m7ul" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7vzw" name="TEAM-Gummy/android_device_htc_m7vzw" remote="tg" revision="kk4.4" />
   <project path="device/htc/s4-common" name="TEAM-Gummy/android_device_htc_s4-common" remote="tg" revision="kk4.4" />
   <project path="device/lge/d800" name="TEAM-Gummy/android_device_lge_d800" remote="tg" revision="kk4.4" />
