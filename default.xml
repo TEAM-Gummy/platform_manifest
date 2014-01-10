@@ -112,6 +112,8 @@
   <project path="device/samsung/d2usc" name="TEAM-Gummy/android_device_samsung_d2usc" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2vzw" name="TEAM-Gummy/android_device_samsung_d2vzw" remote="tg" revision="kk4.4" />
   <project path="device/samsung/exhilarate" name="TEAM-Gummy/android_device_samsung_exhilarate" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/hlte-common" name="TEAM-Gummy/android_device_samsung_hlte-common" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/hltetmo" name="TEAM-Gummy/android_device_samsung_hltetmo" remote="tg" revision="kk4.4" />
   <project path="device/samsung/i605" name="TEAM-Gummy/android_device_samsung_i605" remote="tg" revision="kk4.4" />
   <project path="device/samsung/i9300" name="TEAM-Gummy/android_device_samsung_i9300" remote="tg" revision="kk4.4" />
   <project path="device/samsung/jflteatt" name="TEAM-Gummy/android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
@@ -154,6 +156,7 @@
   <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8960dt-common" name="CyanogenMod/android_kernel_motorola_msm8960dt-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/d2" name="TEAM-Gummy/android_kernel_samsung_d2" remote="tg" revision="kk4.4" />
+  <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/jf" name="TEAM-Gummy/elite_kernel_jf" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/msm8660-common" name="TEAM-Gummy/android_kernel_samsung_msm8660-common" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/smdk4412" name="TEAM-Gummy/android_kernel_samsung_smdk4412" remote="tg" revision="kk4.4" />
