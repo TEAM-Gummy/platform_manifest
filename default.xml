@@ -327,7 +327,7 @@
   <project path="external/sepolicy" name="TEAM-Gummy/android_external_sepolicy" remote="tg" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="TEAM-Gummy/android_external_skia" remote="tg" revision="kk4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -441,7 +441,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="TEAM-Gummy/packages_apps_Bluetooth" remote="tg" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="TEAM-Gummy/packages_apps_BluetoothExt" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="TEAM-Gummy/packages_apps_Browser" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="TEAM-Gummy/packages_apps_Calculator" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
