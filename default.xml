@@ -94,6 +94,7 @@
   <project path="device/motorola/xt925" name="TEAM-Gummy/android_device_motorola_xt925" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt926" name="TEAM-Gummy/android_device_motorola_xt926" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1032" name="TEAM-Gummy/android_device_motorola_xt1032" remote="tg" revision="kk4.4" />
+  <project path="device/motorola/xt1033" name="TEAM-Gummy/android_device_motorola_xt1033" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1034" name="TEAM-Gummy/android_device_motorola_xt1034" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1053" name="TEAM-Gummy/android_device_motorola_xt1053" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1055" name="TEAM-Gummy/android_device_motorola_xt1055" remote="tg" revision="kk4.4" />
