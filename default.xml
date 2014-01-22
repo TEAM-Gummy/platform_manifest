@@ -393,7 +393,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="TEAM-Gummy/android_frameworks_opt_telephony" remote="tg" revision="kk4.4-dualsim" />
-  <project path="frameworks/opt/telephony-msim" name="TEAM-Gummy/android_frameworks_opt_telephony-msim" remote="tg" revision="kk4.4-duamsim" />
+  <project path="frameworks/opt/telephony-msim" name="TEAM-Gummy/android_frameworks_opt_telephony-msim" remote="tg" revision="kk4.4-dualsim" />
   <project path="frameworks/opt/vcard" name="TEAM-Gummy/android_frameworks_opt_vcard" remote="tg" revision="kk4.4" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -491,7 +491,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="tg" revision="kk4.4-dualsim" />
+  <project path="packages/apps/Stk" name="TEAM-Gummy/packages_apps_Stk" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="TEAM-Gummy/packages_apps_UnifiedEmail" remote="tg" revision="kk4.4" />
