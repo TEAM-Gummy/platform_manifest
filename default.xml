@@ -21,7 +21,7 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="TEAM-Gummy/android_build" remote="tg" revision="kk4.4" >
+  <project path="build" name="TEAM-Gummy/android_build" remote="tg" revision="kk4.4-dualsim" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -371,7 +371,7 @@
 
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="TEAM-Gummy/android_frameworks_av" remote="tg" revision="kk4.4" />
-  <project path="frameworks/base" name="TEAM-Gummy/android_frameworks_base" remote="tg" revision="kk4.4" />
+  <project path="frameworks/base" name="TEAM-Gummy/android_frameworks_base" remote="tg" revision="kk4.4-dualsim" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -391,7 +391,8 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="TEAM-Gummy/android_frameworks_opt_telephony" remote="tg" revision="kk4.4" />
+  <project path="frameworks/opt/telephony" name="TEAM-Gummy/android_frameworks_opt_telephony" remote="tg" revision="kk4.4-dualsim" />
+  <project path="frameworks/opt/telephony-msim" name="TEAM-Gummy/android_frameworks_opt_telephony-msim" remote="tg" revision="kk4.4-duamsim" />
   <project path="frameworks/opt/vcard" name="TEAM-Gummy/android_frameworks_opt_vcard" remote="tg" revision="kk4.4" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -428,7 +429,7 @@
   <project path="hardware/qcom/power" name="TEAM-Gummy/hardware_qcom_power" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="TEAM-Gummy/hardware_qcom_wlan" remote="tg" revision="kk4.4" />
-  <project path="hardware/ril" name="TEAM-Gummy/android_hardware_ril" remote="tg" revision="kk4.4" />
+  <project path="hardware/ril" name="TEAM-Gummy/android_hardware_ril" remote="tg" revision="kk4.4-dualsim" />
   <project path="hardware/samsung" name="TEAM-Gummy/android_hardware_samsung" remote="tg" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="TEAM-Gummy/hardware_ti_omap3" remote="tg" revision="kk4.4" />
@@ -467,13 +468,13 @@
   <project path="packages/apps/Gallery2" name="TEAM-Gummy/packages_apps_Gallery2" remote="tg" revision="kk4.4" />
   <project path="packages/apps/GummyPapers" name="TEAM-Gummy/packages_apps_GummyPapers" remote="tg" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="TEAM-Gummy/packages_apps_InCallUI" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/InCallUI" name="TEAM-Gummy/packages_apps_InCallUI" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="TEAM-Gummy/packages_apps_Launcher3" remote="tg" revision="kk4.4" />
   <project path="packages/apps/LockClock" name="TEAM-Gummy/android_packages_apps_LockClock" remote="tg" revision="kk4.4" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="TEAM-Gummy/android_packages_apps_Mms" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Mms" name="TEAM-Gummy/android_packages_apps_Mms" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -484,12 +485,12 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="TEAM-Gummy/android_packages_apps_Settings" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="TEAM-Gummy/android_packages_apps_Settings" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="TEAM-Gummy/packages_apps_UnifiedEmail" remote="tg" revision="kk4.4" />
@@ -505,12 +506,12 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="TEAM-Gummy/packages_providers_TelephonyProvider" remote="tg" revision="kk4.4" />
+  <project path="packages/providers/TelephonyProvider" name="TEAM-Gummy/packages_providers_TelephonyProvider" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="TEAM-Gummy/packages_services_Telephony" remote="tg" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="TEAM-Gummy/packages_services_Telephony" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
