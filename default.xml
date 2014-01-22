@@ -452,23 +452,22 @@
   <project path="packages/apps/BluetoothExt" name="TEAM-Gummy/packages_apps_BluetoothExt" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Browser" name="TEAM-Gummy/packages_apps_Browser" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="TEAM-Gummy/packages_apps_Calculator" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="TEAM-Gummy/packages_apps_Calendar" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="TEAM-Gummy/packages_apps_Camera2" remote="tg" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="TEAM-Gummy/packages_apps_Contacts" remote="tg" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="TEAM-Gummy/android_packages_apps_ConctactsCommon" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="TEAM-Gummy/packages_apps_DeskClock" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="TEAM-Gummy/android_packages_apps_Dialer" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="TEAM-Gummy/packages_apps_Email" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="TEAM-Gummy/packages_apps_Gallery2" remote="tg" revision="kk4.4" />
   <project path="packages/apps/GummyPapers" name="TEAM-Gummy/packages_apps_GummyPapers" remote="tg" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="TEAM-Gummy/packages_apps_InCallUI" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/InvertedCalendar" name="TEAM-Gummy/packages_apps_InvertedCalendar" remote="tg" revision="kk4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="TEAM-Gummy/packages_apps_Launcher3" remote="tg" revision="kk4.4" />
@@ -493,7 +492,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
+  <project path="packages/apps/UnifiedEmail" name="TEAM-Gummy/packages_apps_UnifiedEmail" remote="tg" revision="kk4.4" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
