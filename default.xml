@@ -462,7 +462,7 @@
   <project path="packages/apps/Contacts" name="TEAM-Gummy/packages_apps_Contacts" remote="tg" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="TEAM-Gummy/android_packages_apps_ConctactsCommon" remote="tg" revision="kk4.4" />
   <project path="packages/apps/DeskClock" name="TEAM-Gummy/packages_apps_DeskClock" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/Dialer" name="TEAM-Gummy/android_packages_apps_Dialer" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="TEAM-Gummy/android_packages_apps_Dialer" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/apps/Email" name="TEAM-Gummy/packages_apps_Email" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -503,7 +503,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="TEAM-Gummy/packages_providers_ContactsProvider" remote="tg" revision="kk4.4-dualsim" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
