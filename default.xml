@@ -102,7 +102,6 @@
   <project path="device/motorola/xt1056" name="TEAM-Gummy/android_device_motorola_xt1056" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1058" name="TEAM-Gummy/android_device_motorola_xt1058" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt1060" name="TEAM-Gummy/android_device_motorola_xt1060" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/celox-common" name="TEAM-Gummy/android_device_samsung_celox-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2-common" name="TEAM-Gummy/android_device_samsung_d2-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2att" name="TEAM-Gummy/android_device_samsung_d2att" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2cri" name="TEAM-Gummy/android_device_samsung_d2cri" remote="tg" revision="kk4.4" />
@@ -111,7 +110,6 @@
   <project path="device/samsung/d2tmo" name="TEAM-Gummy/android_device_samsung_d2tmo" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2usc" name="TEAM-Gummy/android_device_samsung_d2usc" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2vzw" name="TEAM-Gummy/android_device_samsung_d2vzw" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/exhilarate" name="TEAM-Gummy/android_device_samsung_exhilarate" remote="tg" revision="kk4.4" />
   <project path="device/samsung/i605" name="TEAM-Gummy/android_device_samsung_i605" remote="tg" revision="kk4.4" />
   <project path="device/samsung/i9300" name="TEAM-Gummy/android_device_samsung_i9300" remote="tg" revision="kk4.4" />
   <project path="device/samsung/jflteatt" name="TEAM-Gummy/android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
@@ -126,7 +124,6 @@
   <project path="device/samsung/jf-common" name="TEAM-Gummy/android_device_samsung_jf-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/qcom-common" name="TEAM-Gummy/android_device_samsung_qcom-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/maguro" name="TEAM-Gummy/android_device_samsung_maguro" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/msm8660-common" name="TEAM-Gummy/android_device_samsung_msm8660-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/msm8960-common" name="TEAM-Gummy/android_device_samsung_msm8960-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/smdk4412-common" name="TEAM-Gummy/android_device_samsung_smdk4412-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/smdk4412-qcom-common" name="TEAM-Gummy/android_device_samsung_smdk4412-qcom-common" remote="tg" revision="kk4.4" />
@@ -136,7 +133,6 @@
   <project path="device/samsung/t0lte" name="TEAM-Gummy/android_device_samsung_t0lte" remote="tg" revision="kk4.4" />
   <project path="device/samsung/t0lteatt" name="TEAM-Gummy/android_device_samsung_t0lteatt" remote="tg" revision="kk4.4" />
   <project path="device/samsung/t0ltetmo" name="TEAM-Gummy/android_device_samsung_t0ltetmo" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/t769" name="TEAM-Gummy/android_device_samsung_t769" remote="tg" revision="kk4.4" />
 
   <!-- Kernel Sources -->
   <project path="kernel/asus/grouper" name="TEAM-Gummy/Gummy_kernel_grouper" remote="tg" revision="kk4.4" />
@@ -155,7 +151,6 @@
   <project path="kernel/motorola/msm8960dt-common" name="CyanogenMod/android_kernel_motorola_msm8960dt-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/d2" name="TEAM-Gummy/android_kernel_samsung_d2" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/jf" name="TEAM-Gummy/elite_kernel_jf" remote="tg" revision="kk4.4" />
-  <project path="kernel/samsung/msm8660-common" name="TEAM-Gummy/android_kernel_samsung_msm8660-common" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/smdk4412" name="TEAM-Gummy/android_kernel_samsung_smdk4412" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" />
 
