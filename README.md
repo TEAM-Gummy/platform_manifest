@@ -1,7 +1,7 @@
 TEAM Gummy
 ==============
 
-Gummy AOSP 4.4
+Gummy AOSP 4.4.2
 
 Sync and Build:
 ---------------
@@ -18,3 +18,18 @@ Devices Currently Supported:
 
 This list is always subject to change:
 
+    {x}   Asus Nexus 7 2012
+    {x}   Asus Nexus 7 2013
+    {x}   HTC One (All Variants besides Sprint)
+    {x}   LG G2 ( All Variants besides Sprint)
+    {x}   LG Nexus 5
+    {x}   LG Optimus G Pro
+    {x}   Motorola Droid 4
+    {x}   Motorola Droid Bionic
+    {x}   Motorola Droid Razr
+    {x}   Motorola Droid Razr HD
+    {x}   Motorola Droid Razr M
+    {x}   Samsung Galaxy Note 2 (All Variants)
+    {x}   Samsung Galaxy Note 3 (T-Mobile)
+    {x}   Samsung Galaxy S3 (All Variants)
+    {x}   Samsung Galaxy S4 (All Variants)
