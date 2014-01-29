@@ -82,6 +82,7 @@
   <project path="device/lge/p930" name="TEAM-Gummy/android_device_lge_p930" remote="tg" revision="kk4.4" />
   <project path="device/lge/vs920" name="TEAM-Gummy/android_device_lge_vs920" remote="tg" revision="kk4.4" />
   <project path="device/lge/vs980" name="TEAM-Gummy/android_device_lge_vs980" remote="tg" revision="kk4.4" />
+  <project path="device/motorola/ghost" name="TEAM-Gummy/android_device_motorola_ghost" remote="tg" revision="kk4.4" />
   <project path="device/motorola/maserati" name="TEAM-Gummy/android_device_motorola_maserati" remote="tg" revision="kk4.4" />
   <project path="device/motorola/mb886" name="TEAM-Gummy/android_device_motorola_mb886" remote="tg" revision="kk4.4" />
   <project path="device/motorola/msm8226-common" name="TEAM-Gummy/android_device_motorola_msm8226-common" remote="tg" revision="kk4.4" />
