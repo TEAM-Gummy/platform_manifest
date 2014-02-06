@@ -433,6 +433,7 @@
   <project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display-mdss" name="TEAM-Gummy/hardware_qcom_display-mdss" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="cm" revision="cm-11.0"  />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-11.0"  />
   <project path="hardware/qcom/keymaster" name="TEAM-Gummy/hardware_qcom_keymaster" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media" name="TEAM-Gummy/hardware_qcom_media" remote="tg" revision="kk4.4" />
