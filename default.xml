@@ -102,14 +102,7 @@
   <project path="device/motorola/xt925" name="TEAM-Gummy/android_device_motorola_xt925" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt926" name="TEAM-Gummy/android_device_motorola_xt926" remote="tg" revision="kk4.4" />
   <project path="device/samsung/celox-common" name="TEAM-Gummy/android_device_samsung_celox-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2-common" name="TEAM-Gummy/android_device_samsung_d2-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2att" name="TEAM-Gummy/android_device_samsung_d2att" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2cri" name="TEAM-Gummy/android_device_samsung_d2cri" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2mtr" name="TEAM-Gummy/android_device_samsung_d2mtr" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2spr" name="TEAM-Gummy/android_device_samsung_d2spr" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2tmo" name="TEAM-Gummy/android_device_samsung_d2tmo" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2usc" name="TEAM-Gummy/android_device_samsung_d2usc" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2vzw" name="TEAM-Gummy/android_device_samsung_d2vzw" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2" name="TEAM-Gummy/device_samsung_d2" remote="tg" revision="kk4.4" />
   <project path="device/samsung/exhilarate" name="TEAM-Gummy/android_device_samsung_exhilarate" remote="tg" revision="kk4.4" />
   <project path="device/samsung/hlte-common" name="TEAM-Gummy/android_device_samsung_hlte-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/hltetmo" name="TEAM-Gummy/android_device_samsung_hltetmo" remote="tg" revision="kk4.4" />
