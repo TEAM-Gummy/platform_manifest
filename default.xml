@@ -62,6 +62,7 @@
   <project path="device/asus/deb" name="TEAM-Gummy/android_device_asus_deb" remote="tg" revision="kk4.4" />
   <project path="device/asus/flo" name="TEAM-Gummy/android_device_asus_flo" remote="tg" revision="kk4.4" />
   <project path="device/bn/encore" name="TEAM-Gummy/android_device_bn_encore" remote="tg" revision="jb4.3" />
+  <project path="device/htc/dlx" name="TEAM-Gummy/android_device_htc_dlx" remote="tg" revision="kk4.4" />
   <project path="device/htc/evita" name="TEAM-Gummy/android_device_htc_evita" remote="tg" revision="kk4.4" />
   <project path="device/htc/msm8960-common" name="TEAM-Gummy/android_device_htc_msm8960-common" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7-common" name="TEAM-Gummy/android_device_htc_m7-common" remote="tg" revision="kk4.4" />
