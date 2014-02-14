@@ -471,6 +471,7 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="TEAM-Gummy/packages_apps_Gallery2" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/GummyFileManager" name="TEAM-Gummy/packages_apps_GummyFileManager" remote="tg" revision="kk4.4" />
   <project path="packages/apps/GummyPapers" name="TEAM-Gummy/packages_apps_GummyPapers" remote="tg" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="TEAM-Gummy/packages_apps_InCallUI" remote="tg" revision="kk4.4" />
