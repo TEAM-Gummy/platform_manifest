@@ -17,7 +17,7 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="8" />
 
