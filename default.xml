@@ -103,7 +103,7 @@
   <project path="device/motorola/xt925" name="TEAM-Gummy/android_device_motorola_xt925" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt926" name="TEAM-Gummy/android_device_motorola_xt926" remote="tg" revision="kk4.4" />
   <project path="device/samsung/celox-common" name="TEAM-Gummy/android_device_samsung_celox-common" remote="tg" revision="kk4.4" />
-  <project path="device/samsung/d2" name="TEAM-Gummy/device_samsung_d2" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/d2lte" name="TEAM-Gummy/android_device_samsung_d2lte" remote="tg" revision="kk4.4" />
   <project path="device/samsung/exhilarate" name="TEAM-Gummy/android_device_samsung_exhilarate" remote="tg" revision="kk4.4" />
   <project path="device/samsung/hlte" name="TEAM-Gummy/android_device_samsung_hlte" remote="tg" revision="kk4.4" />
   <project path="device/samsung/i605" name="TEAM-Gummy/android_device_samsung_i605" remote="tg" revision="kk4.4" />
