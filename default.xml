@@ -108,6 +108,7 @@
   <project path="device/samsung/hlte" name="TEAM-Gummy/android_device_samsung_hlte" remote="tg" revision="kk4.4" />
   <project path="device/samsung/i605" name="TEAM-Gummy/android_device_samsung_i605" remote="tg" revision="kk4.4" />
   <project path="device/samsung/i9300" name="TEAM-Gummy/android_device_samsung_i9300" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/jflteatt" name="TEAM-Gummy/android_device_samsung_jflte" remote="tg" revision="kk4.4" />
   <project path="device/samsung/jflteatt" name="TEAM-Gummy/android_device_samsung_jflteatt" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltecsp" name="TEAM-Gummy/android_device_samsung_jfltecsp" remote="tg" revision="jb4.3" />
   <project path="device/samsung/jfltecri" name="TEAM-Gummy/android_device_samsung_jfltecri" remote="tg" revision="jb4.3" />
