@@ -416,6 +416,7 @@
   <project path="hardware/qcom/display" name="TEAM-Gummy/hardware_qcom_display" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-caf-new" name="TEAM-Gummy/android_hardware_qcom_display-caf-new" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/display-msm8226" name="TEAM-Gummy/android_hardware_qcom_display-msm8226" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-mdss" name="TEAM-Gummy/hardware_qcom_display-mdss" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/fm" name="TEAM-Gummy/android_hardware_qcom_fm" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/gps" name="TEAM-Gummy/android_hardware_qcom_gps" remote="tg" revision="kk4.4" />
