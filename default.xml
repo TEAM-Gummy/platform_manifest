@@ -415,14 +415,14 @@
   <project path="hardware/qcom/bt" name="TEAM-Gummy/hardware_qcom_bt" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display" name="TEAM-Gummy/hardware_qcom_display" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new" name="TEAM-Gummy/android_hardware_qcom_display-caf-new" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/display-mdss" name="TEAM-Gummy/hardware_qcom_display-mdss" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="cm" revision="cm-11.0"  />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-11.0"  />
+  <project path="hardware/qcom/fm" name="TEAM-Gummy/android_hardware_qcom_fm" remote="tg" revision="kk4.4" />
+  <project path="hardware/qcom/gps" name="TEAM-Gummy/android_hardware_qcom_gps" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="TEAM-Gummy/hardware_qcom_keymaster" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media" name="TEAM-Gummy/hardware_qcom_media" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media-caf" name="TEAM-Gummy/hardware_qcom_media-caf" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new" name="TEAM-Gummy/android_hardware_qcom_media-caf-new" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/media-v4l2" name="TEAM-Gummy/hardware_qcom_media-v4l2" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/msm8960" name="TEAM-Gummy/hardware_qcom_msm8960" remote="tg" revision="kk4.4" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
@@ -435,7 +435,7 @@
   <project path="hardware/ti/omap3" name="TEAM-Gummy/hardware_ti_omap3" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="TEAM-Gummy/hardware_ti_omap4xxx" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="TEAM-Gummy/hardware_ti_wlan" remote="tg" revision="kk4.4" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/wpan" name="TEAM-Gummy/android_hardware_ti_wpan" remote="tg" revision="kk4.4" />
   <project path="hardware/tg" name="TEAM-Gummy/android_hardware_tg" remote="tg" revision="kk4.4" />
 
   <!-- Things and Stuff -->
