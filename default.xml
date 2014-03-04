@@ -457,7 +457,7 @@
   <project path="packages/apps/Calendar" name="TEAM-Gummy/packages_apps_Calendar" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="TEAM-Gummy/packages_apps_Camera2" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="TEAM-Gummy/packages_apps_CellBroadcastReceiver" remote="tg" revision="kk4.4" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="TEAM-Gummy/packages_apps_Contacts" remote="tg" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="TEAM-Gummy/android_packages_apps_ConctactsCommon" remote="tg" revision="kk4.4" />
