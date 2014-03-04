@@ -392,6 +392,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="TEAM-Gummy/android_frameworks_opt_telephony" remote="tg" revision="kk4.4" />
+  <project path="frameworks/opt/telephony-msim" name="TEAM-Gummy/frameworks_opt_telephony-msim" remote="tg" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="TEAM-Gummy/android_frameworks_opt_vcard" remote="tg" revision="kk4.4" />
   <project path="frameworks/rs" name="TEAM-Gummy/android_frameworks_rs" remote="tg" revision="kk4.4" />
   <project path="frameworks/support" name="platform/frameworks/support" />
