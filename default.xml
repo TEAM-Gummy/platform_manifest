@@ -472,6 +472,7 @@
   <project path="packages/apps/GummyFileManager" name="TEAM-Gummy/packages_apps_GummyFileManager" remote="tg" revision="kk4.4" />
   <project path="packages/apps/GummyPapers" name="TEAM-Gummy/packages_apps_GummyPapers" remote="tg" revision="master" />
   <project path="packages/apps/GummyStartupService" name="TEAM-Gummy/packages_apps_GummyStartupService" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/GummyUpdater" name="TEAM-Gummy/android_packages_apps_GummyUpdater" remote="tg" revision="kk4.4" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="TEAM-Gummy/packages_apps_InCallUI" remote="tg" revision="kk4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
