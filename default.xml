@@ -461,7 +461,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="TEAM-Gummy/packages_apps_CellBroadcastReceiver" remote="tg" revision="kk4.4" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="TEAM-Gummy/packages_apps_Contacts" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/ContactsCommon" name="TEAM-Gummy/android_packages_apps_ConctactsCommon" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="TEAM-Gummy/android_packages_apps_ContactsCommon" remote="tg" revision="kk4.4" />
   <project path="packages/apps/DeskClock" name="TEAM-Gummy/packages_apps_DeskClock" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="TEAM-Gummy/android_packages_apps_Dialer" remote="tg" revision="kk4.4" />
   <project path="packages/apps/DSPManager" name="TEAM-Gummy/packages_apps_DSPManager" remote="tg" revision="kk4.4" />
