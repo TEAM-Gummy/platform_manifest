@@ -508,7 +508,7 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="TEAM-Gummy/packages_providers_ContactsProvider" remote="tg" revision="kk4.4" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="TEAM-Gummy/packages_providers_DownloadProvider" remote="tg" revision="kk4.4" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="TEAM-Gummy/packages_providers_TelephonyProvider" remote="tg" revision="kk4.4" />
