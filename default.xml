@@ -73,6 +73,7 @@
   <project path="device/htc/m7tmo" name="TEAM-Gummy/android_device_htc_m7tmo" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7ul" name="TEAM-Gummy/android_device_htc_m7ul" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7vzw" name="TEAM-Gummy/android_device_htc_m7vzw" remote="tg" revision="kk4.4" />
+  <project path="device/htc/m8" name="TEAM-Gummy/android_device_htc_m8" remote="tg" revision="kk4.4" />
   <project path="device/htc/s4-common" name="TEAM-Gummy/android_device_htc_s4-common" remote="tg" revision="kk4.4" />
   <project path="device/lge/d800" name="TEAM-Gummy/android_device_lge_d800" remote="tg" revision="kk4.4" />
   <project path="device/lge/d801" name="TEAM-Gummy/android_device_lge_d801" remote="tg" revision="kk4.4" />
@@ -132,6 +133,7 @@
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
+  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/iproj" name="CyanogenMod/lge-kernel-iproj" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/hammerhead" name="TEAM-Gummy/android_kernel_lge_hammerhead" remote="tg" revision="kk4.4" />
