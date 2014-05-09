@@ -502,7 +502,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="TEAM-Gummy/packages_apps_Stk" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/ThemeChooser" name="TEAM-Gummy/android_packages_apps_ThemeChooser" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/ThemeChooser" name="TEAM-Gummy/packages_apps_ThemeChooser" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="TEAM-Gummy/packages_apps_UnifiedEmail" remote="tg" revision="kk4.4" />
@@ -519,7 +519,7 @@
   <project path="packages/providers/MediaProvider" name="TEAM-Gummy/packages_providers_MediaProvider" remote="tg" revision="kk4.4" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="TEAM-Gummy/packages_providers_TelephonyProvider" remote="tg" revision="kk4.4" />
-  <project path="packages/providers/ThemesProvider" name="TEAM-Gummy/android_packages_providers_ThemesProvider" remote="tg" revision="kk4.4" />
+  <project path="packages/providers/ThemesProvider" name="TEAM-Gummy/packages_providers_ThemesProvider" remote="tg" revision="kk4.4" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
