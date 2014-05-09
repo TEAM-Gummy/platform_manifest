@@ -590,7 +590,7 @@
   <!-- System and Tool Packages -->
   <project path="system/core" name="TEAM-Gummy/android_system_core" remote="tg" revision="kk4.4" />
   <project path="system/extras" name="TEAM-Gummy/android_system_extras" remote="tg" revision="kk4.4" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="TEAM-Gummy/android_system_media" remote="tg" revision="kk4.4" />
   <project path="system/netd" name="TEAM-Gummy/android_system_netd" remote="tg" revision="kk4.4" />
   <project path="system/qcom" name="TEAM-Gummy/android_system_qcom" remote="tg" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
