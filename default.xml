@@ -91,10 +91,8 @@
   <project path="device/motorola/maserati" name="TEAM-Gummy/android_device_motorola_maserati" remote="tg" revision="kk4.4" />
   <project path="device/motorola/mb886" name="TEAM-Gummy/android_device_motorola_mb886" remote="tg" revision="kk4.4" />
   <project path="device/motorola/msm8226-common" name="TEAM-Gummy/android_device_motorola_msm8226-common" remote="tg" revision="kk4.4" />
-  <project path="device/motorola/msm8960-common" name="TEAM-Gummy/android_device_motorola_msm8960-common" remote="tg" revision="kk4.4" />
-  <project path="device/motorola/moto_msm8960" name="TEAM-Gummy/android_device_motorola_msm8960-common" remote="tg" revision="unified" />
-  <project path="device/motorola/msm8960dt-common" name="TEAM-Gummy/android_device_motorola_msm8960dt-common" remote="tg" revision="kk4.4" />
-  <project path="device/motorola/moto_msm8960dt" name="TEAM-Gummy/android_device_motorola_msm8960dt-common" remote="tg" revision="unified" />
+  <project path="device/motorola/moto_msm8960" name="TEAM-Gummy/android_device_motorola_moto_msm8960" remote="tg" revision="kk4.4" />
+  <project path="device/motorola/moto_msm8960dt" name="TEAM-Gummy/android_device_motorola_moto_msm8960dt" remote="tg" revision="kk4.4" />
   <project path="device/motorola/omap4-common" name="TEAM-Gummy/android_device_motorola_omap4-common" remote="tg" revision="kk4.4" />
   <project path="device/motorola/qcom-common" name="TEAM-Gummy/android_device_motorola_qcom-common" remote="tg" revision="kk4.4" />
   <project path="device/motorola/spyder" name="TEAM-Gummy/android_device_motorola_spyder" remote="tg" revision="kk4.4" />
