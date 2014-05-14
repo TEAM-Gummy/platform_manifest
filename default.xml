@@ -129,7 +129,6 @@
   <project path="kernel/asus/flo" name="TEAM-Gummy/flo_nexus7" remote="tg"  revision="kk4.4" />
   <project path="kernel/bn/encore" name="CyanogenMod/android_kernel_bn_encore" remote="cm" revision="encore-omap3-3.0.y" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="cm" revision="cm-11.0" />
-  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" />
