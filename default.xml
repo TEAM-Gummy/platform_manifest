@@ -144,7 +144,7 @@
   <project path="kernel/samsung/d2" name="TEAM-Gummy/android_kernel_samsung_d2" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/hlte" name="TEAM-Gummy/android_kernel_samsung_hlte" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/jf" name="TEAM-Gummy/elite_kernel_jf" remote="tg" revision="kk4.4" />
-  <project path="kernel/samsung/msm8660-common" name="TEAM-Gummy/android_kernel_samsung_msm8660-common" remote="tg" revision="kk4.4" />
+  <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="TEAM-Gummy/android_kernel_samsung_smdk4412" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" />
 
