@@ -69,6 +69,7 @@
   <project path="device/htc/msm8960-common" name="TEAM-Gummy/android_device_htc_msm8960-common" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7-common" name="TEAM-Gummy/android_device_htc_m7-common" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7" name="TEAM-Gummy/android_device_htc_m7" remote="tg" revision="kk4.4" />
+  <project path="device/htc/m7spr" name="TEAM-Gummy/android_device_htc_m7spr" remote="tg" revision="kk4.4" />
   <project path="device/htc/m7vzw" name="TEAM-Gummy/android_device_htc_m7vzw" remote="tg" revision="kk4.4" />
   <project path="device/htc/m8" name="TEAM-Gummy/android_device_htc_m8" remote="tg" revision="kk4.4" />
   <project path="device/htc/s4-common" name="TEAM-Gummy/android_device_htc_s4-common" remote="tg" revision="kk4.4" />
