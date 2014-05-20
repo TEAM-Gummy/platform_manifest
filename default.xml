@@ -163,6 +163,7 @@
   <project path="external/bluetooth/bluedroid" name="TEAM-Gummy/external_bluetooth_bluedroid" remote="tg" revision="kk4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="TEAM-Gummy/android_external_busybox" remote="tg" revision="kk4.4" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
@@ -197,6 +198,9 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="TEAM-Gummy/android_external_clang" remote="tg" revision="kk4.4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-11.0" />
+  <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-11.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" revision="cm-11.0" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
@@ -205,6 +209,7 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" />
   <project path="external/e2fsprogs" name="TEAM-Gummy/android_external_e2fsprogs" remote="tg" revision="kk4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="cm" revision="cm-11.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
@@ -270,6 +275,7 @@
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="TEAM-Gummy/android_external_libselinux" remote="tg" revision="kk4.4" />
   <project path="external/libsepol" name="TEAM-Gummy/android_external_libsepol" remote="tg" revision="kk4.4" />
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-11.0" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -316,6 +322,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-11.0" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-11.0" />
