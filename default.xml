@@ -590,6 +590,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.7" name="TEAM-Gummy/Linaro_47x_toolchain" remote="tg" revision="kk4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.8" name="TEAM-Gummy/Linaro_48x_toolchain" remote="tg" revision="kk4.4" />
 
   <!-- System and Tool Packages -->
   <project path="system/core" name="TEAM-Gummy/android_system_core" remote="tg" revision="kk4.4" />
