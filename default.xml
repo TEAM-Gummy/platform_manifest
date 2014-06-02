@@ -124,7 +124,6 @@
 
   <!-- Kernel Sources -->
   <project path="kernel/asus/grouper" name="TEAM-Gummy/Gummy_kernel_grouper" remote="tg" revision="kk4.4" />
-  <project path="kernel/asus/flo" name="TEAM-Gummy/flo_nexus7" remote="tg"  revision="kk4.4" />
   <project path="kernel/bn/encore" name="CyanogenMod/android_kernel_bn_encore" remote="cm" revision="encore-omap3-3.0.y" />
   <project path="kernel/google/msm" name="TEAM-Gummy/android_kernel_google_msm" remote="tg" revision="kk4.4" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="cm" revision="cm-11.0" />
