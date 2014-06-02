@@ -46,7 +46,7 @@
   <project path="device/common" name="TEAM-Gummy/android_device_common" remote="tg" revision="kk4.4" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <project path="device/generic/goldfish" name="TEAM-Gummy/device_generic_goldfish" groups="pdk" remote="tg" revision="kk4.4" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
@@ -168,7 +168,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="TEAM-Gummy/platform_external_chromium" remote="tg" revision="kk4.4" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="TEAM-Gummy/platform_external_chromium_org" remote="tg" revision="kk4.4" />
@@ -200,10 +200,10 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-11.0" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-11.0" />
-  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" revision="cm-11.0" />
+  <project path="external/curl" name="TEAM-Gummy/android_external_curl" remote="tg" revision="kk4.4" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="TEAM-Gummy/platform_external_dnsmasq" groups="pdk" remote="tg" revision="kk4.4" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
@@ -246,7 +246,7 @@
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/iputils" name="platform/external/iputils" />
+  <project path="external/iputils" name="TEAM-Gummy/platform_external_iputils" remote="tg" revision="kk4.4" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
@@ -286,7 +286,7 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="TEAM-Gummy/android_external_llvm" remote="tg" revision="kk4.4" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="cm" revision="cm-11.0" />
+  <project path="external/lsof" name="TEAM-Gummy/android_external_lsof" remote="tg" revision="kk4.4" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-11.0" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
@@ -313,7 +313,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="TEAM-Gummy/platform_external_openssh" remote="tg" revision="kk4.4" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="TEAM-Gummy/android_external_pigz" remote="tg" revision="kk4.4" />
@@ -345,7 +345,7 @@
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" revision="cm-11.0" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/stlport" name="TEAM-Gummy/platform_external_stlport" groups="pdk" remote="tg" revision="kk4.4" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -379,8 +379,8 @@
   <project path="frameworks/base" name="TEAM-Gummy/android_frameworks_base" remote="tg" revision="kk4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/compile/slang" name="TEAM-Gummy/platform_frameworks_compile_slang" groups="pdk" remote="tg" revision="kk4.4" />
+  <project path="frameworks/ex" name="TEAM-Gummy/platform_frameworks_ex" remote="tg" revision="kk4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="TEAM-Gummy/platform_frameworks_native" remote="tg" revision="kk4.4" />
@@ -393,7 +393,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="TEAM-Gummy/frameworks_opt_mms" remote="tg" revision="kk4.4" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/voip" name="TEAM-Gummy/platform_frameworks_opt_net_voip" remote="tg" revision="kk4.4" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="TEAM-Gummy/android_frameworks_opt_telephony" remote="tg" revision="kk4.4" />
@@ -405,7 +405,7 @@
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="TEAM-Gummy/android_frameworks_webview" remote="tg" revision="kk4.4" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="TEAM-Gummy/platform_frameworks_wilhelm" remote="tg" revision="kk4.4" />
 
   <!-- Hardware Packages -->
   <project path="hardware/akm" name="platform/hardware/akm" />
