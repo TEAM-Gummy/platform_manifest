@@ -30,6 +30,7 @@ This list is always subject to change:
     {x}   Motorola Droid Razr
     {x}   Motorola Droid Razr HD
     {x}   Motorola Droid Razr M
+    {x}   Oppo Find7a (All Variants)
     {x}   Samsung Galaxy Nexus (Toro and Maguro)
     {x}   Samsung Galaxy Note 2 (All Variants)
     {x}   Samsung Galaxy Note 3 (T-Mobile)
