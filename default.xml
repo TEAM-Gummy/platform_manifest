@@ -352,7 +352,7 @@
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tcpdump" name="TEAM-Gummy/platform_external_tcpdump" remote="tg" revision="kk4.4" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="cm" revision="cm-11.0" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
