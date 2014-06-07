@@ -322,7 +322,7 @@
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" revision="cm-11.0" />
   <project path="external/ppp" name="platform/external/ppp" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
+  <project path="external/proguard" name="TEAM-Gummy/platform_external_proguard" remote="tg" revision="kk4.4" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-11.0" />
   <project path="external/qemu" name="platform/external/qemu" />
