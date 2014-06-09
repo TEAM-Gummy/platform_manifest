@@ -316,7 +316,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="TEAM-Gummy/platform_external_openssh" remote="tg" revision="kk4.4" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssl" name="TEAM-Gummy/android_external_openssl" groups="pdk" remote="tg" revision="kk4.4" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="TEAM-Gummy/android_external_pigz" remote="tg" revision="kk4.4" />
   <project path="external/pixman" name="platform/external/pixman" />
