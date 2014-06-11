@@ -1,7 +1,14 @@
 TEAM Gummy
 ==============
 
-Gummy AOSP 4.4.2
+Gummy AOSP 4.4.3
+
+JAVA NOTICE:
+------------
+
+Gummy now builds with OpendJdk as it's default java, if your build environment still uses java6 then prior to building Gummy enter from the root of your build dir:
+
+    {x}   export LEGACY_USE_JAVA6=true
 
 Sync and Build:
 ---------------
