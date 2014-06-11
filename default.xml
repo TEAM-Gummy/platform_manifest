@@ -389,6 +389,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
+  <project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/hardware" name="TEAM-Gummy/frameworks_opt_hardware" remote="tg" revision="kk4.4" />
