@@ -507,6 +507,7 @@
   <project path="packages/apps/ThemeChooser" name="TEAM-Gummy/packages_apps_ThemeChooser" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Trebuchet" name="TEAM-Gummy/packages_apps_Trebuchet" remote="tg" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="TEAM-Gummy/packages_apps_UnifiedEmail" remote="tg" revision="kk4.4" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
