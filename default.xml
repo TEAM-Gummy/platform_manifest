@@ -111,6 +111,7 @@
   <project path="device/samsung/maguro" name="TEAM-Gummy/android_device_samsung_maguro" remote="tg" revision="kk4.4" />
   <project path="device/samsung/msm8660-common" name="TEAM-Gummy/android_device_samsung_msm8660-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/msm8960-common" name="TEAM-Gummy/android_device_samsung_msm8960-common" remote="tg" revision="kk4.4" />
+  <project path="device/samsung/msm8974-common" name="TEAM-Gummy/android_device_samsung_msm8974-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/smdk4412-common" name="TEAM-Gummy/android_device_samsung_smdk4412-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/smdk4412-qcom-common" name="TEAM-Gummy/android_device_samsung_smdk4412-qcom-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/skyrocket" name="TEAM-Gummy/android_device_samsung_skyrocket" remote="tg" revision="kk4.4" />
