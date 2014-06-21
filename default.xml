@@ -417,7 +417,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="TEAM-Gummy/hardware_broadcom_libbt" remote="tg" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="TEAM-Gummy/hardware_broadcom_wlan" remote="tg" revision="kk4.4" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <project path="hardware/qcom/camera" name="TEAM-Gummy/hardware_qcom_camera" remote="tg" revision="kk4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="TEAM-Gummy/hardware_libhardware" remote="tg" revision="kk4.4" />
   <project path="hardware/libhardware_legacy" name="TEAM-Gummy/hardware_libhardware_legacy" remote="tg" revision="kk4.4" />
