@@ -122,6 +122,9 @@
   <project path="device/samsung/t0lteatt" name="TEAM-Gummy/android_device_samsung_t0lteatt" remote="tg" revision="kk4.4" />
   <project path="device/samsung/t0ltetmo" name="TEAM-Gummy/android_device_samsung_t0ltetmo" remote="tg" revision="kk4.4" />
   <project path="device/samsung/t769" name="TEAM-Gummy/android_device_samsung_t769" remote="tg" revision="kk4.4" />
+  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="cm" revision="cm-11.0" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="cm" revision="cm-11.0" />
+  <project path="device/sony/nicki" name="TEAM-Gummy/android_device_sony_nicki" remote="tg" revision="kk4.4" />
   <project path="device/xiaomi/aries" name="TEAM-Gummy/android_device_xiaomi_aries" remote="tg" revision="kk4.4" />
 
   <!-- Kernel Sources -->
@@ -146,6 +149,7 @@
   <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="TEAM-Gummy/android_kernel_samsung_smdk4412" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" />
+  <project path="kernel/sony/msm8x27" name="TEAM-Gummy/android_kernel_sony_msm8x27" remote="tg" revision="kk4.4" />
   <project path="kernel/xiaomi/aries" name="TEAM-Gummy/android_kernel_xiaomi_aries" remote="tg" revision="kk4.4" />
 
   <!-- External Packages -->
@@ -627,6 +631,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
   <project path="vendor/lge" name="TEAM-Gummy/proprietary_vendor_lge" remote="tg" revision="kk4.4" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
+  <project path="vendor/sony" name="TEAM-Gummy/proprietary_vendor_sony" remote="tg" revision="kk4.4" />
   <project path="vendor/oppo" name="TEAM-Gummy/proprietary_vendor_oppo" remote="tg" revision="kk4.4" />
   <project path="vendor/samsung" name="TEAM-Gummy/proprietary_vendor_samsung" remote="tg" revision="kk4.4" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="tm" revision="cm-11.0" />
