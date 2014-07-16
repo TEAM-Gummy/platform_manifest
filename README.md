@@ -1,7 +1,7 @@
 TEAM Gummy
 ==============
 
-Gummy AOSP 4.4.3
+Gummy AOSP 4.4.4
 
 JAVA NOTICE:
 ------------
@@ -37,6 +37,7 @@ This list is always subject to change:
     {x}   Motorola Droid Razr
     {x}   Motorola Droid Razr HD
     {x}   Motorola Droid Razr M
+    {x}   Oppo Find7 (All Variants)
     {x}   Oppo Find7a (All Variants)
     {x}   Samsung Galaxy Nexus (Toro and Maguro)
     {x}   Samsung Galaxy Note 2 (All Variants)
