@@ -157,6 +157,7 @@
   <!-- External Packages -->
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-11.0" />
   <project path="external/android-clat" name="platform/external/android-clat" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-11.0" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
