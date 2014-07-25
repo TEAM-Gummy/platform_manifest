@@ -58,6 +58,7 @@
   <project path="device/qcom/common" name="TEAM-Gummy/android_device_qcom_common" remote="tg" revision="kk4.4" />
   <project path="device/oppo/common" name="TEAM-Gummy/android_device_oppo_common" remote="tg" revision="kk4.4" />
   <project path="device/oppo/find7" name="TEAM-Gummy/android_device_oppo_find7" remote="tg" revision="kk4.4" />
+  <project path="device/oppo/find7u" name="TEAM-Gummy/android_device_oppo_find7u" remote="tg" revision="kk4.4" />
   <project path="device/sample" name="TEAM-Gummy/android_device_sample" remote="tg" revision="kk4.4" />
 
   <!-- Gummy Devices -->
