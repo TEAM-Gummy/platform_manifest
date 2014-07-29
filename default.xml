@@ -56,9 +56,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/qcom/common" name="TEAM-Gummy/android_device_qcom_common" remote="tg" revision="kk4.4" />
-  <project path="device/oppo/common" name="TEAM-Gummy/android_device_oppo_common" remote="tg" revision="kk4.4" />
-  <project path="device/oppo/find7" name="TEAM-Gummy/android_device_oppo_find7" remote="tg" revision="kk4.4" />
-  <project path="device/oppo/find7u" name="TEAM-Gummy/android_device_oppo_find7u" remote="tg" revision="kk4.4" />
   <project path="device/sample" name="TEAM-Gummy/android_device_sample" remote="tg" revision="kk4.4" />
 
   <!-- Gummy Devices -->
@@ -102,6 +99,11 @@
   <project path="device/motorola/xt907" name="TEAM-Gummy/android_device_motorola_xt907" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt925" name="TEAM-Gummy/android_device_motorola_xt925" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt926" name="TEAM-Gummy/android_device_motorola_xt926" remote="tg" revision="kk4.4" />
+  <project path="device/oneplus/bacon" name="TEAM-Gummy/device_oneplus_bacon" remote="tg" revision="kk4.4" />
+  <project path="device/oppo/common" name="TEAM-Gummy/android_device_oppo_common" remote="tg" revision="kk4.4" />
+  <project path="device/oppo/find7" name="TEAM-Gummy/android_device_oppo_find7" remote="tg" revision="kk4.4" />
+  <project path="device/oppo/find7u" name="TEAM-Gummy/android_device_oppo_find7u" remote="tg" revision="kk4.4" />
+  <project path="device/oppo/msm8974-common" name="TEAM-Gummy/android_device_oppo_msm8974-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/celox-common" name="TEAM-Gummy/android_device_samsung_celox-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2lte" name="TEAM-Gummy/android_device_samsung_d2lte" remote="tg" revision="kk4.4" />
   <project path="device/samsung/exhilarate" name="TEAM-Gummy/android_device_samsung_exhilarate" remote="tg" revision="kk4.4" />
@@ -145,6 +147,7 @@
   <project path="kernel/motorola/msm8226" name="TEAM-Gummy/android_kernel_motorola_msm8226" remote="tg" revision="kk4.4" />
   <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8960dt-common" name="TEAM-Gummy/android_kernel_motorola_msm8960dt-common" remote="tg" revision="kk4.4" />
+  <project path="kernel/oneplus/msm8974" name="TEAM-Gummy/android_kernel_oneplus_msm8974" remote="tg" revision="kk4.4" />
   <project path="kernel/oppo/find7" name="TEAM-Gummy/android_kernel_oppo_find7" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/d2" name="TEAM-Gummy/android_kernel_samsung_d2" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/hlte" name="TEAM-Gummy/android_kernel_samsung_hlte" remote="tg" revision="kk4.4" />
@@ -635,6 +638,7 @@
   <project path="vendor/lge" name="TEAM-Gummy/proprietary_vendor_lge" remote="tg" revision="kk4.4" />
   <project path="vendor/motorola" name="TEAM-Gummy/proprietary_vendor_motorola" remote="tg" revision="kk4.4" />
   <project path="vendor/sony" name="TEAM-Gummy/proprietary_vendor_sony" remote="tg" revision="kk4.4" />
+  <project path="vendor/oneplus" name="TEAM-Gummy/proprietary_vendor_oneplus" remote="tg" revision="kk4.4" />
   <project path="vendor/oppo" name="TEAM-Gummy/proprietary_vendor_oppo" remote="tg" revision="kk4.4" />
   <project path="vendor/samsung" name="TEAM-Gummy/proprietary_vendor_samsung" remote="tg" revision="kk4.4" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="tm" revision="cm-11.0" />
