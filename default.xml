@@ -144,7 +144,7 @@
   <project path="kernel/motorola/omap4-common" name="CyanogenMod/android_kernel_motorola_omap4-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8226" name="TEAM-Gummy/android_kernel_motorola_msm8226" remote="tg" revision="kk4.4" />
   <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
-  <project path="kernel/motorola/msm8960dt-common" name="CyanogenMod/android_kernel_motorola_msm8960dt-common" remote="cm" revision="cm-11.0" />
+  <project path="kernel/motorola/msm8960dt-common" name="TEAM-Gummy/android_kernel_motorola_msm8960dt-common" remote="tg" revision="kk4.4" />
   <project path="kernel/oppo/find7" name="TEAM-Gummy/android_kernel_oppo_find7" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/d2" name="TEAM-Gummy/android_kernel_samsung_d2" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/hlte" name="TEAM-Gummy/android_kernel_samsung_hlte" remote="tg" revision="kk4.4" />
