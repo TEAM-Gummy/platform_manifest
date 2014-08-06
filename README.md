@@ -44,3 +44,4 @@ This list is always subject to change:
     {x}   Samsung Galaxy Note 3 (T-Mobile)
     {x}   Samsung Galaxy S3 (All Variants)
     {x}   Samsung Galaxy S4 (All Variants)
+    {x}   Sony Xperia M
