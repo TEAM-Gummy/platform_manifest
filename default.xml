@@ -5,6 +5,10 @@
            fetch="http://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <remote  name="github"
+           fetch="https://github.com/"
+           sync-j="8" />
+
   <remote  name="tg"
            fetch="https://github.com/"
            review="review.gummyrom.com"
