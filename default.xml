@@ -155,7 +155,7 @@
   <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="TEAM-Gummy/android_kernel_samsung_smdk4412" remote="tg" revision="kk4.4" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" />
-  <project path="kernel/sony/msm8x27" name="TEAM-Gummy/android_kernel_sony_msm8x27" remote="tg" revision="kk4.4" />
+  <project path="kernel/sony/msm8x27" name="nolinuxnoparty/android_kernel_sony_msm8x27" remote="github" revision="cm-11.0" />
   <project path="kernel/xiaomi/aries" name="TEAM-Gummy/android_kernel_xiaomi_aries" remote="tg" revision="kk4.4" />
 
   <!-- External Packages -->
