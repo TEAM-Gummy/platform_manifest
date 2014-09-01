@@ -643,7 +643,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
   <project path="vendor/lge" name="TEAM-Gummy/proprietary_vendor_lge" remote="tg" revision="kk4.4" />
   <project path="vendor/motorola" name="TEAM-Gummy/proprietary_vendor_motorola" remote="tg" revision="kk4.4" />
-  <project path="vendor/sony" name="TEAM-Gummy/proprietary_vendor_sony" remote="tg" revision="kk4.4" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="tm" revision="cm-11.0" />
   <project path="vendor/oneplus" name="TEAM-Gummy/proprietary_vendor_oneplus" remote="tg" revision="kk4.4" />
   <project path="vendor/oppo" name="TEAM-Gummy/proprietary_vendor_oppo" remote="tg" revision="kk4.4" />
   <project path="vendor/samsung" name="TEAM-Gummy/proprietary_vendor_samsung" remote="tg" revision="kk4.4" />
