@@ -103,11 +103,11 @@
   <project path="device/motorola/xt907" name="TEAM-Gummy/android_device_motorola_xt907" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt925" name="TEAM-Gummy/android_device_motorola_xt925" remote="tg" revision="kk4.4" />
   <project path="device/motorola/xt926" name="TEAM-Gummy/android_device_motorola_xt926" remote="tg" revision="kk4.4" />
-  <project path="device/oneplus/bacon" name="TEAM-Gummy/device_oneplus_bacon" remote="tg" revision="kk4.4" />
+  <project path="device/oneplus/bacon" name="TEAM-Gummy/device_oneplus_bacon" remote="tg" revision="kk4.4-find7" />
   <project path="device/oppo/common" name="TEAM-Gummy/android_device_oppo_common" remote="tg" revision="kk4.4" />
   <project path="device/oppo/find7" name="TEAM-Gummy/android_device_oppo_find7" remote="tg" revision="kk4.4" />
   <project path="device/oppo/find7u" name="TEAM-Gummy/android_device_oppo_find7u" remote="tg" revision="kk4.4" />
-  <project path="device/oppo/msm8974-common" name="TEAM-Gummy/android_device_oppo_msm8974-common" remote="tg" revision="kk4.4" />
+  <project path="device/oppo/msm8974-common" name="TEAM-Gummy/android_device_oppo_msm8974-common" remote="tg" revision="kk4.4-find7" />
   <project path="device/samsung/celox-common" name="TEAM-Gummy/android_device_samsung_celox-common" remote="tg" revision="kk4.4" />
   <project path="device/samsung/d2lte" name="TEAM-Gummy/android_device_samsung_d2lte" remote="tg" revision="kk4.4" />
   <project path="device/samsung/exhilarate" name="TEAM-Gummy/android_device_samsung_exhilarate" remote="tg" revision="kk4.4" />
