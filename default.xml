@@ -547,7 +547,6 @@
   <project path="packages/providers/TelephonyProvider" name="TEAM-Gummy/packages_providers_TelephonyProvider" remote="tg" revision="kk4.4" />
   <project path="packages/providers/ThemesProvider" name="TEAM-Gummy/packages_providers_ThemesProvider" remote="tg" revision="kk4.4" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/themes/SimpleL" name="TEAM-Gummy/android_packages_themes_SimpleL" remote="tg" revision="kk4.4" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
