@@ -368,7 +368,7 @@
   <project path="external/spongycastle" name="TEAM-Gummy/android_external_spongycastle" remote="tg" revision="kk4.4" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" revision="cm-11.0" />
+  <project path="external/stagefright-plugins" name="TEAM-Gummy/android_external_stagefright-plugins" remote="tg" revision="kk4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="TEAM-Gummy/platform_external_stlport" groups="pdk" remote="tg" revision="kk4.4" />
   <project path="external/strace" name="platform/external/strace" />
